@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "process": "Proceso",
+    "clients": "Clientes",
+    "contact": "Contacto",
+    "book_call": "Agendar Llamada"
+  },
+  "hero": {
+    "headline": "Escalando Equipos de Ingeniería e IA",
+    "headline_accent": "en LATAM, USA y Europa",
+    "subheadline": "Conectamos a las empresas de tecnología de mayor crecimiento con talento excepcional en ingeniería e IA — con precisión, eficiencia y velocidad.",
+    "cta_primary": "Agendar Llamada",
+    "cta_secondary": "Saber Más"
+  },
+  "problem": {
+    "title": "La Fricción al Escalar Equipos de Alto Impacto",
+    "subtitle": "Las empresas tech en crecimiento enfrentan tres cuellos de botella constantes al construir equipos de ingeniería.",
+    "card1_title": "Disponibilidad Limitada de Talento",
+    "card1_description": "El talento de primer nivel en IA e ingeniería es escaso y muy demandado. Los candidatos que necesitas no están en los portales de empleo.",
+    "card2_title": "Profundidad Técnica Desalineada",
+    "card2_description": "Los recruiters genéricos no pueden evaluar el fit técnico. Pasas semanas entrevistando perfiles incorrectos, quemando el tiempo y el momentum de tu equipo.",
+    "card3_title": "Costo de la Velocidad Lenta",
+    "card3_description": "Cada semana sin el candidato correcto retrasa el producto, frena el crecimiento y agrega presión al resto de tu equipo."
+  },
+  "specializations": {
+    "title": "Para Qué Reclutamos",
+    "col1_title": "IA & Data",
+    "col2_title": "Ingeniería",
+    "col3_title": "Plataforma & Backend"
+  },
+  "about": {
+    "title": "Liderado por la Fundadora, Profundamente Comprometida",
+    "subtitle": "Cada búsqueda es liderada personalmente por Carla.",
+    "bio": "Carla Costantini fundó PeopleFirst con un objetivo: aportar la precisión de un recruiter con el contexto de negocio de un operador al proceso de contratación técnica. Con raíces en el ecosistema tech de LATAM y redes directas en scale-ups de USA y Europa, Carla lidera cada búsqueda personalmente.",
+    "credential1": "7+ años sourcing talento de ingeniería e IA en LATAM, USA y Europa",
+    "credential2": "Redes directas en los ecosistemas tech de LATAM, USA y Europa",
+    "credential3": "Ingenieros y líderes de datos colocados en empresas de Series A a unicornios",
+    "credential4": "Cada búsqueda es liderada por la fundadora — sin delegación, sin sourcers junior",
+    "image_alt": "Carla Costantini, Fundadora de PeopleFirst Agency"
+  },
+  "process": {
+    "title": "Cómo Trabajamos",
+    "step1_title": "Alineación con el Hiring Manager",
+    "step1_description": "Profundizamos en el alcance del rol, la dinámica del equipo y el culture fit antes de sourcear un solo candidato.",
+    "step2_title": "Búsqueda Proactiva de Mercado",
+    "step2_description": "No publicamos y esperamos. Mapeamos el mercado, identificamos candidatos pasivos y diseñamos outreach personalizado.",
+    "step3_title": "Atrayendo al Mejor Talento",
+    "step3_description": "Vendemos la visión y el producto de tu empresa — no solo el puesto. Los mejores ingenieros eligen PeopleFirst porque contamos tu historia de manera efectiva."
+  },
+  "global_reach": {
+    "title": "Alcance Global, Profundidad Regional",
+    "latam_title": "América Latina",
+    "latam_countries": "Argentina · Colombia · México · Brasil · Chile · Perú",
+    "latam_description": "Redes de candidatos profundas y conocimiento regional del mercado en los hubs tech más vibrantes de Latinoamérica.",
+    "europe_title": "Europa & USA",
+    "europe_countries": "España · Portugal · Alemania · Países Bajos · Reino Unido · USA",
+    "europe_description": "Acceso a talento norteamericano y europeo con alineación de zonas horarias y sólidas normas de colaboración remota."
+  },
+  "clients": {
+    "title": "Confiado por Equipos de Alto Movimiento",
+    "subtitle": "Las empresas que se mueven rápido confían en PeopleFirst para encontrar el talento que las mantiene adelante."
+  },
+  "pricing": {
+    "title": "Precios Simples y Alineados",
+    "subtitle": "Sin sorpresas. Sin retainers. Tenemos éxito cuando tú lo tienes.",
+    "card1_value": "10%",
+    "card1_title": "Fee de Colocación",
+    "card1_description": "Competitivo y directo — un porcentaje del salario base del primer año al completar la colocación.",
+    "card2_value": "$0",
+    "card2_title": "Costo Inicial",
+    "card2_description": "Sin retainer, sin pago hasta que tu nueva contratación comience. Estamos alineados con tu éxito desde el primer día.",
+    "card3_value": "30",
+    "card3_title": "Días de Garantía",
+    "card3_description": "Si tu contratación no funciona en los primeros 30 días, encontraremos un reemplazo sin costo adicional.",
+    "card4_value": "12m",
+    "card4_title": "Visión a Largo Plazo",
+    "card4_description": "No desaparecemos después de la colocación. Hacemos seguimiento regular y construimos partnerships de largo plazo."
+  },
+  "contact": {
+    "title": "Hablemos de Talento",
+    "subtitle": "Cuéntanos sobre el rol que estás contratando. Te responderemos dentro de un día hábil.",
+    "name_label": "Nombre Completo",
+    "name_placeholder": "Juan García",
+    "company_label": "Empresa",
+    "company_placeholder": "Tu startup o scale-up",
+    "email_label": "Email",
+    "email_placeholder": "juan@tuempresa.com",
+    "role_label": "Rol que Estás Contratando",
+    "role_placeholder": "ej. Senior ML Engineer",
+    "message_label": "Mensaje",
+    "message_placeholder": "Cuéntanos sobre tu equipo, el rol y cómo luce el éxito...",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success_title": "¡Mensaje Enviado!",
+    "success_message": "Gracias por contactarnos. Carla te responderá dentro de un día hábil.",
+    "error_title": "Algo salió mal",
+    "error_message": "Por favor intenta de nuevo o escríbenos directamente a carla@wearepeoplefirst.com",
+    "direct_contact": "O contáctanos directamente",
+    "email_contact": "carla@wearepeoplefirst.com",
+    "phone_contact": "+54 9 11 XXXX-XXXX",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Recruiting de precisión para equipos de ingeniería e IA en LATAM, USA y Europa.",
+    "copyright": "© {year} PeopleFirst Agency. Todos los derechos reservados.",
+    "linkedin": "LinkedIn",
+    "email": "carla@wearepeoplefirst.com"
+  },
+  "theme": {
+    "toggle_dark": "Cambiar a modo oscuro",
+    "toggle_light": "Cambiar a modo claro"
+  },
+  "lang": {
+    "en": "EN",
+    "es": "ES",
+    "switch_to_en": "Switch to English",
+    "switch_to_es": "Cambiar a Español"
+  }
+}

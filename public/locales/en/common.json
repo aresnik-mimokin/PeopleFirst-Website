@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "clients": "Clients",
+    "contact": "Contact",
+    "book_call": "Book a Call"
+  },
+  "hero": {
+    "headline": "Scaling Engineering & AI Teams",
+    "headline_accent": "in LATAM, USA & Europe",
+    "subheadline": "We connect the fastest-growing tech companies with exceptional engineering and AI talent — precisely, efficiently, and at velocity.",
+    "cta_primary": "Book a Call",
+    "cta_secondary": "Learn More"
+  },
+  "problem": {
+    "title": "The Friction in Scaling High-Impact Teams",
+    "subtitle": "Growing tech companies face three consistent bottlenecks when building engineering teams.",
+    "card1_title": "Limited Talent Availability",
+    "card1_description": "Top-tier AI and engineering talent is rare — and heavily competed for. The candidates you need aren't browsing job boards.",
+    "card2_title": "Misaligned Technical Depth",
+    "card2_description": "Generic recruiters can't evaluate technical fit. You spend weeks interviewing the wrong profiles, burning your team's time and momentum.",
+    "card3_title": "Cost of Slow Velocity",
+    "card3_description": "Every week without the right hire delays product, slows growth, and puts mounting pressure on the rest of your team."
+  },
+  "specializations": {
+    "title": "What We Recruit For",
+    "col1_title": "AI & Data",
+    "col2_title": "Engineering",
+    "col3_title": "Platform & Backend"
+  },
+  "about": {
+    "title": "Founder-Led & Deeply Embedded",
+    "subtitle": "Every search is led personally by Carla.",
+    "bio": "Carla Costantini founded PeopleFirst with one goal: to bring recruiter-level precision and operator-level business context to technical hiring. With roots in the LATAM tech ecosystem and deep networks across US and European scale-ups, Carla leads every search personally — understanding not just the role, but the team, the product, and the company at the moment it matters most.",
+    "credential1": "7+ years sourcing engineering & AI talent across LATAM, USA and Europe",
+    "credential2": "Direct networks in LATAM, USA, and European tech ecosystems",
+    "credential3": "Placed engineers and data leaders at Series A to unicorn-stage companies",
+    "credential4": "Every search is founder-led — no handoffs, no junior sourcers",
+    "image_alt": "Carla Costantini, Founder of PeopleFirst Agency"
+  },
+  "process": {
+    "title": "How We Work",
+    "step1_title": "Hiring Manager Alignment",
+    "step1_description": "We go deep on role scope, team dynamics, and culture fit before sourcing a single candidate.",
+    "step2_title": "Proactive Market Hunt",
+    "step2_description": "We don't post and pray. We map the market, identify passive candidates, and craft personalized outreach.",
+    "step3_title": "Attracting the Best Talent",
+    "step3_description": "We sell your company's vision and product — not just the job. Top engineers choose PeopleFirst because we tell your story right."
+  },
+  "global_reach": {
+    "title": "Global Reach, Regional Depth",
+    "latam_title": "Latin America",
+    "latam_countries": "Argentina · Colombia · Mexico · Brazil · Chile · Peru",
+    "latam_description": "Deep candidate networks and regional market knowledge across Latin America's most vibrant tech hubs.",
+    "europe_title": "Europe & USA",
+    "europe_countries": "Spain · Portugal · Germany · Netherlands · UK · USA",
+    "europe_description": "Access to North American and European talent with timezone alignment and strong remote collaboration norms."
+  },
+  "clients": {
+    "title": "Trusted by Fast-Moving Teams",
+    "subtitle": "Companies that move fast trust PeopleFirst to find the talent that keeps them ahead."
+  },
+  "pricing": {
+    "title": "Simple, Aligned Pricing",
+    "subtitle": "No surprises. No retainers. We succeed when you do.",
+    "card1_value": "10%",
+    "card1_title": "Placement Fee",
+    "card1_description": "Competitive and straightforward — a percentage of first-year base salary upon successful placement.",
+    "card2_value": "$0",
+    "card2_title": "Upfront Cost",
+    "card2_description": "No retainer, no payment until your new hire starts. We're aligned with your success from day one.",
+    "card3_value": "30",
+    "card3_title": "Day Guarantee",
+    "card3_description": "If your hire doesn't work out in the first 30 days, we'll find a replacement at no additional charge.",
+    "card4_value": "12mo",
+    "card4_title": "Relationship View",
+    "card4_description": "We don't disappear after placement. We check in regularly and build long-term partnerships with the companies we serve."
+  },
+  "contact": {
+    "title": "Let's Talk Talent",
+    "subtitle": "Tell us about the role you're hiring for. We'll get back to you within one business day.",
+    "name_label": "Full Name",
+    "name_placeholder": "Jane Smith",
+    "company_label": "Company",
+    "company_placeholder": "Your startup or scale-up",
+    "email_label": "Email",
+    "email_placeholder": "jane@yourcompany.com",
+    "role_label": "Role You're Hiring For",
+    "role_placeholder": "e.g. Senior ML Engineer",
+    "message_label": "Message",
+    "message_placeholder": "Tell us about your team, the role, and what success looks like...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success_title": "Message Sent!",
+    "success_message": "Thanks for reaching out. Carla will get back to you within one business day.",
+    "error_title": "Something went wrong",
+    "error_message": "Please try again or email us directly at carla@wearepeoplefirst.com",
+    "direct_contact": "Or reach out directly",
+    "email_contact": "carla@wearepeoplefirst.com",
+    "phone_contact": "+54 9 11 XXXX-XXXX",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Precision recruiting for engineering & AI teams in LATAM, USA & Europe.",
+    "copyright": "© {year} PeopleFirst Agency. All rights reserved.",
+    "linkedin": "LinkedIn",
+    "email": "carla@wearepeoplefirst.com"
+  },
+  "theme": {
+    "toggle_dark": "Switch to dark mode",
+    "toggle_light": "Switch to light mode"
+  },
+  "lang": {
+    "en": "EN",
+    "es": "ES",
+    "switch_to_en": "Switch to English",
+    "switch_to_es": "Cambiar a Español"
+  }
+}
