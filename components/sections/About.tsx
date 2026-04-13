@@ -35,20 +35,6 @@ export function About() {
             className="relative order-2 lg:order-1"
           >
             <div className="relative aspect-[4/5] max-w-sm mx-auto lg:mx-0 rounded-3xl overflow-hidden">
-              {/* Placeholder gradient background */}
-              <div
-                className="absolute inset-0 bg-gradient-to-br from-purple-900/50 to-navy-900 flex items-center justify-center"
-                aria-hidden="true"
-              >
-                <div className="text-center">
-                  <div className="h-20 w-20 rounded-full bg-purple-500/20 ring-2 ring-purple-500/30 mx-auto mb-3 flex items-center justify-center">
-                    <span className="font-display font-bold text-2xl text-purple-300">CC</span>
-                  </div>
-                  <p className="text-white/40 text-sm">Photo coming soon</p>
-                </div>
-              </div>
-              {/* Replace src with actual photo path: /images/carla-costantini.jpg */}
-              {/* Uncomment when photo is available:
               <Image
                 src="/images/carla-costantini.jpg"
                 alt={t('about.image_alt')}
@@ -57,7 +43,6 @@ export function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority={false}
               />
-              */}
             </div>
 
             {/* Floating accent card */}
