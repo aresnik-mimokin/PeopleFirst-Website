@@ -2,20 +2,18 @@
 
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Brain, Code2, Server } from 'lucide-react'
+import { Brain, Code2 } from 'lucide-react'
 import { useTranslation } from '@/lib/i18n-context'
 import { DEFAULTS } from '@/lib/content-defaults'
 
-const colIcons = [Brain, Code2, Server]
+const colIcons = [Brain, Code2]
 const accentColors = [
   'text-purple-400 bg-purple-500/10 ring-purple-500/20',
   'text-blue-400 bg-blue-500/10 ring-blue-500/20',
-  'text-violet-400 bg-violet-500/10 ring-violet-500/20',
 ]
 const hoverColors = [
   'hover:border-purple-500/40 hover:shadow-purple-500/5',
   'hover:border-blue-500/40 hover:shadow-blue-500/5',
-  'hover:border-violet-500/40 hover:shadow-violet-500/5',
 ]
 
 export function Specializations() {
@@ -28,7 +26,7 @@ export function Specializations() {
     Icon: colIcons[i],
     accent: accentColors[i],
     hover: hoverColors[i],
-    titleKey: ['specializations.col1_title', 'specializations.col2_title', 'specializations.col3_title'][i],
+    titleKey: ['specializations.col1_title', 'specializations.col2_title'][i],
   }))
 
   return (
@@ -55,7 +53,7 @@ export function Specializations() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6" role="list" aria-label="Specialization areas">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto" role="list" aria-label="Specialization areas">
           {columns.map(({ title, titleKey, Icon, accent, hover, roles }, i) => (
             <motion.article
               key={title}

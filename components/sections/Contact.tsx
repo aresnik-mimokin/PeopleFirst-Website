@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import { useRef, useState, forwardRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -28,7 +28,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   error?: string
 }
 
-function FormInput({ label, error, id, ...props }: InputProps) {
+const FormInput = forwardRef<HTMLInputElement, InputProps>(function FormInput({ label, error, id, ...props }, ref) {
   return (
     <div className="flex flex-col gap-1.5">
       <label htmlFor={id} className="text-sm font-medium">
@@ -37,6 +37,7 @@ function FormInput({ label, error, id, ...props }: InputProps) {
       </label>
       <input
         id={id}
+        ref={ref}
         className={cn(
           'h-11 w-full rounded-xl border bg-background px-4 text-sm transition-colors',
           'placeholder:text-muted-foreground/50',
@@ -54,14 +55,14 @@ function FormInput({ label, error, id, ...props }: InputProps) {
       )}
     </div>
   )
-}
+})
 
 interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   label: string
   error?: string
 }
 
-function FormTextarea({ label, error, id, ...props }: TextareaProps) {
+const FormTextarea = forwardRef<HTMLTextAreaElement, TextareaProps>(function FormTextarea({ label, error, id, ...props }, ref) {
   return (
     <div className="flex flex-col gap-1.5">
       <label htmlFor={id} className="text-sm font-medium">
@@ -70,6 +71,7 @@ function FormTextarea({ label, error, id, ...props }: TextareaProps) {
       </label>
       <textarea
         id={id}
+        ref={ref}
         className={cn(
           'w-full rounded-xl border bg-background px-4 py-3 text-sm transition-colors resize-none',
           'placeholder:text-muted-foreground/50',
@@ -88,7 +90,7 @@ function FormTextarea({ label, error, id, ...props }: TextareaProps) {
       )}
     </div>
   )
-}
+})
 
 export function Contact() {
   const { t } = useTranslation()

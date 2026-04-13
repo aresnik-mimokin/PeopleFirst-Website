@@ -11,7 +11,7 @@ export const DEFAULTS = {
     ogImage: '/images/og-default.jpg',
   },
   nav: {
-    bookCallUrl: 'https://calendly.com/carla-peoplefirst',
+    bookCallUrl: 'https://calendar.app.google/gMkBftxpaJHVFjP37',
     linkedinUrl: 'https://www.linkedin.com/company/peoplefirst-agency/posts/?feedView=all',
   },
   hero: {
@@ -20,7 +20,7 @@ export const DEFAULTS = {
     subheadline:
       'We connect the fastest-growing tech companies with exceptional engineering and AI talent — precisely, efficiently, and at velocity.',
     ctaLabel: 'Book a Call',
-    ctaUrl: 'https://calendly.com/carla-peoplefirst',
+    ctaUrl: 'https://calendar.app.google/gMkBftxpaJHVFjP37',
   },
   problem: {
     title: 'The Friction in Scaling High-Impact Teams',
@@ -50,36 +50,26 @@ export const DEFAULTS = {
         title: 'AI & Data',
         icon: 'brain',
         roles: [
-          'ML Engineers',
-          'Data Scientists',
-          'AI Researchers',
+          'AI Engineers',
+          'AI Head and Managers',
+          'Machine Learning Engineers',
           'Data Engineers',
-          'Analytics Engineers',
-          'LLM Engineers',
+          'Data Scientist Engineers',
+          'BI and Analytics Engineers',
+          'Database Engineers',
         ],
       },
       {
-        title: 'Engineering',
+        title: 'Engineering & Platform',
         icon: 'code',
         roles: [
           'Backend Engineers',
-          'Full Stack Engineers',
-          'Mobile Engineers (iOS/Android)',
-          'DevOps / SRE Engineers',
           'Frontend Engineers',
-          'Software Architects',
-        ],
-      },
-      {
-        title: 'Platform & Backend',
-        icon: 'server',
-        roles: [
-          'Platform Engineers',
-          'Infrastructure Architects',
+          'Fullstack Engineers',
+          'Mobile Engineers',
+          'Staff & Architects',
+          'DevOps/SRE Engineers',
           'Cloud Engineers',
-          'Backend Leads',
-          'Tech Leads',
-          'Engineering Managers',
         ],
       },
     ],
@@ -179,6 +169,6 @@ export const DEFAULTS = {
     subtitle:
       "Tell us about the role you're hiring for. We'll get back to you within one business day.",
     email: 'carla@wearepeoplefirst.com',
-    linkedinUrl: 'https://www.linkedin.com/company/peoplefirst-agency/posts/?feedView=all',
+    linkedinUrl: 'https://www.linkedin.com/in/carlacostantini/',
   },
 }
