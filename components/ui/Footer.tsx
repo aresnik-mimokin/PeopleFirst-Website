@@ -97,11 +97,6 @@ export function Footer() {
                   {DEFAULTS.contact.email}
                 </a>
               </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  {DEFAULTS.contact.phone}
-                </span>
-              </li>
             </ul>
             <div className="flex items-center gap-2 mt-6">
               <ToggleLang />

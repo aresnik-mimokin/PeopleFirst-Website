@@ -12,7 +12,7 @@ export const DEFAULTS = {
   },
   nav: {
     bookCallUrl: 'https://calendly.com/carla-peoplefirst',
-    linkedinUrl: 'https://www.linkedin.com/in/carlacostantini',
+    linkedinUrl: 'https://www.linkedin.com/company/peoplefirst-agency/posts/?feedView=all',
   },
   hero: {
     headline: 'Scaling Engineering & AI Teams',
@@ -179,7 +179,6 @@ export const DEFAULTS = {
     subtitle:
       "Tell us about the role you're hiring for. We'll get back to you within one business day.",
     email: 'carla@wearepeoplefirst.com',
-    phone: '+54 9 11 XXXX-XXXX',
-    linkedinUrl: 'https://www.linkedin.com/in/carlacostantini',
+    linkedinUrl: 'https://www.linkedin.com/company/peoplefirst-agency/posts/?feedView=all',
   },
 }
