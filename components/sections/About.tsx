@@ -47,8 +47,6 @@ export function About() {
                   <p className="text-white/40 text-sm">Photo coming soon</p>
                 </div>
               </div>
-              {/* Replace src with actual photo path: /images/carla-costantini.jpg */}
-              {/* Uncomment when photo is available:
               <Image
                 src="/images/carla-costantini.jpg"
                 alt={t('about.image_alt')}
@@ -57,7 +55,6 @@ export function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority={false}
               />
-              */}
             </div>
 
             {/* Floating accent card */}
