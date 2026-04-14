@@ -26,8 +26,8 @@ export async function POST(req: NextRequest) {
 
     const resend = new Resend(process.env.RESEND_API_KEY)
 
-    await resend.emails.send({
-      from: 'PeopleFirst Website <noreply@wearepeoplefirst.com>',
+    const { error: sendError } = await resend.emails.send({
+      from: 'PeopleFirst Website <onboarding@resend.dev>',
       to: ['carla@wearepeoplefirst.com'],
       reply_to: email,
       subject: `New Inquiry: ${role} at ${company}`,
@@ -62,9 +62,14 @@ export async function POST(req: NextRequest) {
       `,
     })
 
+    if (sendError) {
+      console.error('Resend error (main):', sendError)
+      return NextResponse.json({ error: 'Failed to send message', detail: sendError }, { status: 500 })
+    }
+
     // Auto-reply to sender
     await resend.emails.send({
-      from: 'Carla at PeopleFirst <carla@wearepeoplefirst.com>',
+      from: 'Carla at PeopleFirst <onboarding@resend.dev>',
       to: [email],
       subject: "Thanks for reaching out — I'll be in touch shortly",
       html: `
