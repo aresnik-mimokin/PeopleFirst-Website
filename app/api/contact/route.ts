@@ -63,12 +63,12 @@ export async function POST(req: NextRequest) {
     })
 
     if (sendError) {
-      console.error('Resend error (main):', sendError)
+      console.error('Resend error (main):', JSON.stringify(sendError))
       return NextResponse.json({ error: 'Failed to send message', detail: sendError }, { status: 500 })
     }
 
-    // Auto-reply to sender
-    await resend.emails.send({
+    // Auto-reply — fire and forget, never block the success response
+    resend.emails.send({
       from: 'Carla at PeopleFirst <onboarding@resend.dev>',
       to: [email],
       subject: "Thanks for reaching out — I'll be in touch shortly",

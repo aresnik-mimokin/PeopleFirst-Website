@@ -10,7 +10,7 @@ export function Clients() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
-  const clients = DEFAULTS.clients.names
+  const clients = DEFAULTS.clients.list
 
   return (
     <section
@@ -45,19 +45,22 @@ export function Clients() {
           role="list"
           aria-label="Client companies"
         >
-          {clients.map((name, i) => (
-            <motion.div
+          {clients.map(({ name, url }, i) => (
+            <motion.a
               key={name}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
               role="listitem"
               initial={{ opacity: 0, scale: 0.92 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.5, delay: i * 0.07, ease: [0.22, 1, 0.36, 1] }}
-              className="group flex items-center justify-center rounded-xl border border-border/60 bg-card px-5 py-6 hover:border-purple-500/40 hover:bg-purple-500/5 transition-all duration-300"
+              className="group flex items-center justify-center rounded-xl border border-border/60 bg-card px-5 py-6 hover:border-purple-500/40 hover:bg-purple-500/5 transition-all duration-300 cursor-pointer"
             >
               <span className="font-display font-semibold text-sm text-center text-muted-foreground group-hover:text-foreground transition-colors leading-tight">
                 {name}
               </span>
-            </motion.div>
+            </motion.a>
           ))}
 
           {/* "And more" card */}

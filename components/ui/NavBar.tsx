@@ -71,7 +71,12 @@ export function NavBar() {
             aria-label="PeopleFirst Agency — home"
             className="flex items-center gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
           >
-            <span className="font-display font-bold text-lg tracking-tight group-hover:text-purple-400 transition-colors">
+            <span className={cn(
+              'font-display font-bold text-lg tracking-tight transition-colors',
+              scrolled
+                ? 'text-foreground group-hover:text-purple-400'
+                : 'text-white group-hover:text-purple-300',
+            )}>
               People<span className="text-purple-500">First</span>
             </span>
           </Link>

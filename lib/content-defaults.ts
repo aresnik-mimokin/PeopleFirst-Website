@@ -128,7 +128,18 @@ export const DEFAULTS = {
   clients: {
     title: 'Trusted by Fast-Moving Teams',
     subtitle: 'Companies that move fast trust PeopleFirst to find the talent that keeps them ahead.',
-    names: ['Hotel Engine', 'dLocal', 'Joy', 'Stay AI', 'Cargo PartnersX', 'Deepcell', 'Amma'],
+    list: [
+      { name: 'Hotel Engine', url: 'https://hotelengine.com' },
+      { name: 'dLocal', url: 'https://dlocal.com' },
+      { name: 'Joy', url: 'https://withjoy.com' },
+      { name: 'Stay AI', url: 'https://www.stayai.co' },
+      { name: 'Cargo PartnersX', url: 'https://cargopartnersx.com' },
+      { name: 'Deepcell', url: 'https://deepcell.com' },
+      { name: 'Amma', url: 'https://amma.com' },
+      { name: 'Embi Media', url: 'https://embi.media/' },
+      { name: 'Appgrade', url: 'https://appgrade.agency/' },
+      { name: 'CPG Affiliates', url: 'https://cpgaffiliate.com/' },
+    ],
   },
   pricing: {
     title: 'Simple, Aligned Pricing',
