@@ -12,6 +12,12 @@ const contactSchema = z.object({
 
 export async function POST(req: NextRequest) {
   try {
+    const apiKey = process.env.RESEND_API_KEY
+    if (!apiKey) {
+      console.error('RESEND_API_KEY is not set')
+      return NextResponse.json({ error: 'Email service not configured' }, { status: 500 })
+    }
+
     const body = await req.json()
     const parsed = contactSchema.safeParse(body)
 
@@ -24,11 +30,16 @@ export async function POST(req: NextRequest) {
 
     const { name, company, email, role, message } = parsed.data
 
-    const resend = new Resend(process.env.RESEND_API_KEY)
+    // RESEND_TO_EMAIL overrides the recipient — useful while domain is unverified
+    // (Resend's shared domain can only send to the account's own email)
+    // Once wearepeoplefirst.com is verified in Resend, remove this env var.
+    const toEmail = process.env.RESEND_TO_EMAIL ?? 'carla@wearepeoplefirst.com'
+
+    const resend = new Resend(apiKey)
 
     const { error: sendError } = await resend.emails.send({
       from: 'PeopleFirst Website <onboarding@resend.dev>',
-      to: ['carla@wearepeoplefirst.com'],
+      to: [toEmail],
       reply_to: email,
       subject: `New Inquiry: ${role} at ${company}`,
       html: `
@@ -63,11 +74,11 @@ export async function POST(req: NextRequest) {
     })
 
     if (sendError) {
-      console.error('Resend error (main):', JSON.stringify(sendError))
-      return NextResponse.json({ error: 'Failed to send message', detail: sendError }, { status: 500 })
+      console.error('Resend send error:', JSON.stringify(sendError))
+      return NextResponse.json({ error: 'Failed to send', detail: sendError }, { status: 500 })
     }
 
-    // Auto-reply — fire and forget, never block the success response
+    // Auto-reply — fire and forget
     resend.emails.send({
       from: 'Carla at PeopleFirst <onboarding@resend.dev>',
       to: [email],
@@ -79,20 +90,21 @@ export async function POST(req: NextRequest) {
             Thanks for reaching out about your <strong>${role}</strong> role at <strong>${company}</strong>.
           </p>
           <p style="color: #374151; line-height: 1.6;">
-            I've received your message and will get back to you within one business day to discuss how PeopleFirst can help you find the right talent.
+            I've received your message and will get back to you within one business day.
           </p>
           <p style="color: #374151; line-height: 1.6;">
-            In the meantime, feel free to connect with me on <a href="https://www.linkedin.com/in/carlacostantini" style="color: #7C3AED;">LinkedIn</a>.
+            In the meantime, feel free to connect on <a href="https://www.linkedin.com/in/carlacostantini" style="color: #7C3AED;">LinkedIn</a>.
           </p>
           <br />
-          <p style="color: #374151;">Best,<br /><strong>Carla Costantini</strong><br />Founder, PeopleFirst Agency<br /><a href="mailto:carla@wearepeoplefirst.com" style="color: #7C3AED;">carla@wearepeoplefirst.com</a></p>
+          <p style="color: #374151;">Best,<br /><strong>Carla Costantini</strong><br />Founder, PeopleFirst Agency</p>
         </div>
       `,
     })
 
     return NextResponse.json({ success: true })
   } catch (error) {
-    console.error('Contact form error:', error)
-    return NextResponse.json({ error: 'Failed to send message' }, { status: 500 })
+    console.error('Contact route exception:', error)
+    return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
+
