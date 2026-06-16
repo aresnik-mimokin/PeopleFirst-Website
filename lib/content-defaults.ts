@@ -141,40 +141,6 @@ export const DEFAULTS = {
       { name: 'CPG Affiliates', url: 'https://cpgaffiliate.com/' },
     ],
   },
-  pricing: {
-    title: 'Simple, Aligned Pricing',
-    subtitle: 'No surprises. No retainers. We succeed when you do.',
-    cards: [
-      {
-        value: '10%',
-        title: 'Placement Fee',
-        description:
-          'Competitive and straightforward — a percentage of first-year base salary upon successful placement.',
-        highlight: true,
-      },
-      {
-        value: '$0',
-        title: 'Upfront Cost',
-        description:
-          "No retainer, no payment until your new hire starts. We're aligned with your success from day one.",
-        highlight: false,
-      },
-      {
-        value: '30',
-        title: 'Day Guarantee',
-        description:
-          "If your hire doesn't work out in the first 30 days, we'll find a replacement at no additional charge.",
-        highlight: false,
-      },
-      {
-        value: '12mo',
-        title: 'Relationship View',
-        description:
-          "We don't disappear after placement. We check in regularly and build long-term partnerships with the companies we serve.",
-        highlight: false,
-      },
-    ],
-  },
   contact: {
     title: "Let's Talk Talent",
     subtitle:

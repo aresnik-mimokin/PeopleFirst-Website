@@ -252,47 +252,6 @@ export default config({
           }),
         }),
 
-        // ─── PRICING ─────────────────────────────────────────────
-        pricing: fields.object({
-          title: fields.text({ label: 'Section Title', defaultValue: 'Simple, Aligned Pricing' }),
-          subtitle: fields.text({
-            label: 'Section Subtitle',
-            defaultValue: 'No surprises. No retainers. We succeed when you do.',
-          }),
-          card1Value: fields.text({ label: 'Card 1 Value', defaultValue: '10%' }),
-          card1Title: fields.text({ label: 'Card 1 Title', defaultValue: 'Placement Fee' }),
-          card1Description: fields.text({
-            label: 'Card 1 Description',
-            multiline: true,
-            defaultValue:
-              'Competitive and straightforward — a percentage of first-year base salary upon successful placement.',
-          }),
-          card2Value: fields.text({ label: 'Card 2 Value', defaultValue: '$0' }),
-          card2Title: fields.text({ label: 'Card 2 Title', defaultValue: 'Upfront Cost' }),
-          card2Description: fields.text({
-            label: 'Card 2 Description',
-            multiline: true,
-            defaultValue:
-              "No retainer, no payment until your new hire starts. We're aligned with your success from day one.",
-          }),
-          card3Value: fields.text({ label: 'Card 3 Value', defaultValue: '30' }),
-          card3Title: fields.text({ label: 'Card 3 Title', defaultValue: 'Day Guarantee' }),
-          card3Description: fields.text({
-            label: 'Card 3 Description',
-            multiline: true,
-            defaultValue:
-              "If your hire doesn't work out in the first 30 days, we'll find a replacement at no additional charge.",
-          }),
-          card4Value: fields.text({ label: 'Card 4 Value', defaultValue: '12mo' }),
-          card4Title: fields.text({ label: 'Card 4 Title', defaultValue: 'Relationship View' }),
-          card4Description: fields.text({
-            label: 'Card 4 Description',
-            multiline: true,
-            defaultValue:
-              "We don't disappear after placement. We check in regularly and build long-term partnerships with the companies we serve.",
-          }),
-        }),
-
         // ─── CONTACT ─────────────────────────────────────────────
         contact: fields.object({
           title: fields.text({ label: 'Section Title', defaultValue: "Let's Talk Talent" }),

@@ -8,7 +8,6 @@ import { About } from '@/components/sections/About'
 import { Process } from '@/components/sections/Process'
 import { GlobalReach } from '@/components/sections/GlobalReach'
 import { Clients } from '@/components/sections/Clients'
-import { Pricing } from '@/components/sections/Pricing'
 import { Contact } from '@/components/sections/Contact'
 import { DEFAULTS } from '@/lib/content-defaults'
 
@@ -29,7 +28,6 @@ export default function HomePage() {
         <Process />
         <GlobalReach />
         <Clients />
-        <Pricing />
         <Contact />
       </main>
       <Footer />
