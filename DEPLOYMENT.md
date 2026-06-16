@@ -140,7 +140,6 @@ Once deployed with production env vars:
    - Problem cards copy
    - About/bio text and photo upload
    - Client names list
-   - Pricing card values
    - Contact information
    - SEO meta title/description/OG image
 4. Save changes → Keystatic commits directly to your GitHub repo
