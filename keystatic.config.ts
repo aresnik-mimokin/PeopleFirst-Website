@@ -1,4 +1,4 @@
-import { config, fields, singleton } from '@keystatic/core'
+import { config, fields, singleton, collection } from '@keystatic/core'
 
 export default config({
   storage:
@@ -267,6 +267,70 @@ export default config({
             label: 'LinkedIn URL',
             defaultValue: 'https://linkedin.com/in/carlacostantini',
           }),
+        }),
+      },
+    }),
+  },
+
+  collections: {
+    posts: collection({
+      label: 'Blog Posts',
+      path: 'content/posts/*',
+      slugField: 'title',
+      format: { contentField: 'content' },
+      entryLayout: 'content',
+      columns: ['title', 'publishedDate'],
+      schema: {
+        title: fields.slug({
+          name: { label: 'Title' },
+          slug: {
+            label: 'URL slug',
+            description: 'The path segment for this post, e.g. /blog/your-slug',
+          },
+        }),
+        publishedDate: fields.date({
+          label: 'Published date',
+          defaultValue: { kind: 'today' },
+          validation: { isRequired: true },
+        }),
+        author: fields.text({ label: 'Author', defaultValue: 'Carla Costantini' }),
+        language: fields.select({
+          label: 'Language',
+          options: [
+            { label: 'English', value: 'en' },
+            { label: 'Español', value: 'es' },
+          ],
+          defaultValue: 'en',
+        }),
+        excerpt: fields.text({
+          label: 'Excerpt',
+          description: 'Short summary shown in cards and previews (1–2 sentences).',
+          multiline: true,
+          validation: { isRequired: true },
+        }),
+        coverImage: fields.image({
+          label: 'Cover image',
+          directory: 'public/images/blog',
+          publicPath: '/images/blog',
+        }),
+        tags: fields.array(fields.text({ label: 'Tag' }), {
+          label: 'Tags',
+          itemLabel: (props) => props.value ?? 'Tag',
+        }),
+        draft: fields.checkbox({
+          label: 'Draft',
+          description: 'Draft posts are hidden from the live site.',
+          defaultValue: false,
+        }),
+        content: fields.document({
+          label: 'Content',
+          formatting: true,
+          dividers: true,
+          links: true,
+          images: {
+            directory: 'public/images/blog',
+            publicPath: '/images/blog',
+          },
         }),
       },
     }),

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Linkedin, Mail } from 'lucide-react'
 import { useTranslation } from '@/lib/i18n-context'
 import { ToggleDark } from './ToggleDark'
@@ -8,21 +9,23 @@ import { ToggleLang } from './ToggleLang'
 import { DEFAULTS } from '@/lib/content-defaults'
 
 const footerLinks = [
-  { key: 'nav.about', href: '#about' },
-  { key: 'nav.services', href: '#specializations' },
-  { key: 'nav.process', href: '#process' },
-  { key: 'nav.clients', href: '#clients' },
-  { key: 'nav.contact', href: '#contact' },
+  { key: 'nav.about', href: '/#about' },
+  { key: 'nav.services', href: '/#specializations' },
+  { key: 'nav.process', href: '/#process' },
+  { key: 'nav.clients', href: '/#clients' },
+  { key: 'nav.blog', href: '/blog' },
+  { key: 'nav.contact', href: '/#contact' },
 ]
 
 export function Footer() {
   const { t } = useTranslation()
+  const pathname = usePathname()
   const year = new Date().getFullYear()
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (href.startsWith('#')) {
+    if (href.startsWith('/#') && pathname === '/') {
       e.preventDefault()
-      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
+      document.querySelector(href.slice(1))?.scrollIntoView({ behavior: 'smooth' })
     }
   }
 

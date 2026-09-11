@@ -5,8 +5,19 @@
     "services": "Servicios",
     "process": "Proceso",
     "clients": "Clientes",
+    "blog": "Blog",
     "contact": "Contacto",
     "book_call": "Agendar Llamada"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Notas e Ideas",
+    "subtitle": "Perspectivas sobre contratación, talento y cómo construir grandes equipos de ingeniería e IA.",
+    "read_more": "Leer más",
+    "view_all": "Ver todas las notas",
+    "back": "Volver al blog",
+    "by": "Por",
+    "empty": "Todavía no hay notas — volvé pronto."
   },
   "hero": {
     "headline": "Escalando Equipos de Ingeniería e IA",

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { useTranslation } from '@/lib/i18n-context'
@@ -12,17 +13,21 @@ import { cn } from '@/lib/utils'
 import { DEFAULTS } from '@/lib/content-defaults'
 
 const navLinks = [
-  { key: 'nav.about', href: '#about' },
-  { key: 'nav.services', href: '#specializations' },
-  { key: 'nav.process', href: '#process' },
-  { key: 'nav.clients', href: '#clients' },
-  { key: 'nav.contact', href: '#contact' },
+  { key: 'nav.about', href: '/#about' },
+  { key: 'nav.services', href: '/#specializations' },
+  { key: 'nav.process', href: '/#process' },
+  { key: 'nav.clients', href: '/#clients' },
+  { key: 'nav.blog', href: '/blog' },
+  { key: 'nav.contact', href: '/#contact' },
 ]
 
-export function NavBar() {
+export function NavBar({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
   const { t } = useTranslation()
+  const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+
+  const solid = scrolled || alwaysSolid
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -40,13 +45,17 @@ export function NavBar() {
   }, [])
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (href.startsWith('#')) {
+    // In-page anchors: smooth-scroll only when we're already on the homepage.
+    // Otherwise let the browser navigate to /#section from the current page.
+    if (href.startsWith('/#') && pathname === '/') {
       e.preventDefault()
-      const el = document.querySelector(href)
+      const el = document.querySelector(href.slice(1))
       if (el) {
         el.scrollIntoView({ behavior: 'smooth' })
         setMenuOpen(false)
       }
+    } else {
+      setMenuOpen(false)
     }
   }
 
@@ -56,7 +65,7 @@ export function NavBar() {
         role="banner"
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-          scrolled
+          solid
             ? 'bg-background/90 backdrop-blur-md border-b border-border/50 shadow-sm'
             : 'bg-transparent',
         )}
@@ -73,7 +82,7 @@ export function NavBar() {
           >
             <span className={cn(
               'font-display font-bold text-lg tracking-tight transition-colors',
-              scrolled
+              solid
                 ? 'text-foreground group-hover:text-purple-400'
                 : 'text-white group-hover:text-purple-300',
             )}>

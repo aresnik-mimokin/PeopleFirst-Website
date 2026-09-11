@@ -5,8 +5,19 @@
     "services": "Services",
     "process": "Process",
     "clients": "Clients",
+    "blog": "Blog",
     "contact": "Contact",
     "book_call": "Book a Call"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Insights & Ideas",
+    "subtitle": "Perspectives on hiring, talent, and building great engineering & AI teams.",
+    "read_more": "Read more",
+    "view_all": "View all posts",
+    "back": "Back to blog",
+    "by": "By",
+    "empty": "No posts yet — check back soon."
   },
   "hero": {
     "headline": "Scaling Engineering & AI Teams",
