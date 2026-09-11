@@ -5,8 +5,7 @@ import { PostCard } from '@/components/blog/PostCard'
 import type { PostSummary } from '@/lib/posts'
 
 export function BlogIndex({ posts }: { posts: PostSummary[] }) {
-  const { t, locale } = useTranslation()
-  const visible = posts.filter((p) => p.language === locale)
+  const { t } = useTranslation()
 
   return (
     <section className="section-padding">
@@ -23,13 +22,13 @@ export function BlogIndex({ posts }: { posts: PostSummary[] }) {
           </p>
         </div>
 
-        {visible.length === 0 ? (
+        {posts.length === 0 ? (
           <p className="text-center text-muted-foreground">
             {t('blog.empty', 'No posts yet — check back soon.')}
           </p>
         ) : (
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {visible.map((post, i) => (
+            {posts.map((post, i) => (
               <PostCard key={post.slug} post={post} index={i} />
             ))}
           </div>

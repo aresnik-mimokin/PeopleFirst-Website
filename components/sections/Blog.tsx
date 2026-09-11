@@ -1,9 +1,9 @@
-import { getAllPosts } from '@/lib/posts'
+import { getLatestPosts } from '@/lib/posts'
 import { BlogSection } from './BlogSection'
 
 export async function Blog() {
-  // Pass all posts; the client component filters by the active language and
-  // shows the latest few, so switching language re-filters the list.
-  const posts = await getAllPosts()
+  // Posts are bilingual, so every post appears in both languages; the cards
+  // just show the title/excerpt for the active language.
+  const posts = await getLatestPosts(3)
   return <BlogSection posts={posts} />
 }
