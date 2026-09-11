@@ -4,21 +4,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft } from 'lucide-react'
 import { useTranslation } from '@/lib/i18n-context'
+import { pickTitle, formatDate } from '@/lib/blog-i18n'
 import type { PostSummary } from '@/lib/posts'
 
-function formatDate(date: string, language: 'en' | 'es') {
-  const d = new Date(date)
-  if (Number.isNaN(d.getTime())) return date
-  return d.toLocaleDateString(language === 'es' ? 'es-AR' : 'en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  })
-}
-
 export function PostHeader({ post }: { post: PostSummary }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const title = pickTitle(post, locale)
 
   return (
     <header className="mx-auto mb-10 max-w-3xl">
@@ -44,18 +35,18 @@ export function PostHeader({ post }: { post: PostSummary }) {
       )}
 
       <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
-        {post.title}
+        {title}
       </h1>
 
       <p className="mt-4 text-sm text-muted-foreground">
-        {t('blog.by', 'By')} {post.author} · {formatDate(post.publishedDate, post.language)}
+        {t('blog.by', 'By')} {post.author} · {formatDate(post.publishedDate, locale)}
       </p>
 
       {post.coverImage && (
         <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-2xl bg-muted">
           <Image
             src={post.coverImage}
-            alt={post.title}
+            alt={title}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllPosts, getPost } from '@/lib/posts'
 import { PostHeader } from '@/components/blog/PostHeader'
-import { DocRenderer } from '@/components/blog/DocRenderer'
+import { PostBody } from '@/components/blog/PostBody'
 
 export async function generateStaticParams() {
   const posts = await getAllPosts()
@@ -41,7 +41,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
       <div className="container">
         <PostHeader post={post} />
         <div className="prose-pf mx-auto max-w-3xl">
-          <DocRenderer document={post.content} />
+          <PostBody en={post.content} es={post.contentEs} />
         </div>
       </div>
     </article>

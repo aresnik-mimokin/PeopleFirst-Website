@@ -277,36 +277,34 @@ export default config({
       label: 'Blog Posts',
       path: 'content/posts/*',
       slugField: 'title',
-      format: { contentField: 'content' },
-      entryLayout: 'content',
       columns: ['title', 'publishedDate'],
       schema: {
+        // Each post is bilingual: fill the English and Spanish fields and the
+        // site shows the version matching the reader's selected language. If a
+        // language is left empty, the other language is shown as a fallback.
         title: fields.slug({
-          name: { label: 'Title' },
+          name: { label: 'Title (English)' },
           slug: {
             label: 'URL slug',
             description: 'The path segment for this post, e.g. /blog/your-slug',
           },
         }),
+        titleEs: fields.text({ label: 'Título (Español)' }),
         publishedDate: fields.date({
           label: 'Published date',
           defaultValue: { kind: 'today' },
           validation: { isRequired: true },
         }),
         author: fields.text({ label: 'Author', defaultValue: 'Carla Costantini' }),
-        language: fields.select({
-          label: 'Language',
-          options: [
-            { label: 'English', value: 'en' },
-            { label: 'Español', value: 'es' },
-          ],
-          defaultValue: 'en',
-        }),
         excerpt: fields.text({
-          label: 'Excerpt',
+          label: 'Excerpt (English)',
           description: 'Short summary shown in cards and previews (1–2 sentences).',
           multiline: true,
-          validation: { isRequired: true },
+        }),
+        excerptEs: fields.text({
+          label: 'Extracto (Español)',
+          description: 'Resumen corto para las tarjetas y vistas previas (1–2 frases).',
+          multiline: true,
         }),
         coverImage: fields.image({
           label: 'Cover image',
@@ -322,15 +320,17 @@ export default config({
           description: 'Draft posts are hidden from the live site.',
           defaultValue: false,
         }),
-        content: fields.document({
-          label: 'Content',
-          formatting: true,
-          dividers: true,
-          links: true,
-          images: {
-            directory: 'public/images/blog',
-            publicPath: '/images/blog',
-          },
+        content: fields.text({
+          label: 'Content — English (Markdown)',
+          description:
+            'The article body in English. Supports Markdown: ## Heading, **bold**, *italic*, [link](url), - lists, > quotes.',
+          multiline: true,
+        }),
+        contentEs: fields.text({
+          label: 'Contenido — Español (Markdown)',
+          description:
+            'El cuerpo del artículo en español. Soporta Markdown: ## Título, **negrita**, *cursiva*, [enlace](url), - listas, > citas.',
+          multiline: true,
         }),
       },
     }),
