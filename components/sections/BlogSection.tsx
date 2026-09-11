@@ -9,11 +9,12 @@ import { PostCard } from '@/components/blog/PostCard'
 import type { PostSummary } from '@/lib/posts'
 
 export function BlogSection({ posts }: { posts: PostSummary[] }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
-  if (posts.length === 0) return null
+  const visible = posts.filter((p) => p.language === locale).slice(0, 3)
+  if (visible.length === 0) return null
 
   return (
     <section
@@ -43,7 +44,7 @@ export function BlogSection({ posts }: { posts: PostSummary[] }) {
         </motion.div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post, i) => (
+          {visible.map((post, i) => (
             <PostCard key={post.slug} post={post} index={i} />
           ))}
         </div>
