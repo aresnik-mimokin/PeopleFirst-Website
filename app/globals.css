@@ -137,4 +137,45 @@
       linear-gradient(135deg, #7C3AED, #3B82F6) border-box;
     border: 1px solid transparent;
   }
+
+  /* Blog article typography (Keystatic DocumentRenderer output) */
+  .prose-pf {
+    @apply text-base leading-relaxed text-foreground/90;
+  }
+  .prose-pf > * + * {
+    @apply mt-5;
+  }
+  .prose-pf h2 {
+    @apply mt-12 font-display text-2xl font-bold leading-tight sm:text-3xl;
+  }
+  .prose-pf h3 {
+    @apply mt-8 font-display text-xl font-bold leading-snug;
+  }
+  .prose-pf p {
+    @apply leading-relaxed text-muted-foreground;
+  }
+  .prose-pf a {
+    @apply font-medium text-purple-500 underline underline-offset-2 hover:text-purple-400;
+  }
+  .prose-pf ul {
+    @apply list-disc space-y-2 pl-6 text-muted-foreground;
+  }
+  .prose-pf ol {
+    @apply list-decimal space-y-2 pl-6 text-muted-foreground;
+  }
+  .prose-pf blockquote {
+    @apply border-l-4 border-purple-500/40 pl-5 italic text-foreground/80;
+  }
+  .prose-pf hr {
+    @apply my-10 border-border/60;
+  }
+  .prose-pf img {
+    @apply rounded-xl;
+  }
+  .prose-pf code {
+    @apply rounded bg-muted px-1.5 py-0.5 text-sm;
+  }
+  .prose-pf strong {
+    @apply font-semibold text-foreground;
+  }
 }
