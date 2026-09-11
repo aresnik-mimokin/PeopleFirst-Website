@@ -8,8 +8,8 @@ export default config({
       ? {
           kind: 'github',
           repo: {
-            owner: process.env.KEYSTATIC_GITHUB_REPO_OWNER ?? 'your-org',
-            name: process.env.KEYSTATIC_GITHUB_REPO_NAME ?? 'peoplefirst-website',
+            owner: process.env.KEYSTATIC_GITHUB_REPO_OWNER ?? 'aresnik-mimokin',
+            name: process.env.KEYSTATIC_GITHUB_REPO_NAME ?? 'PeopleFirst-Website',
           },
         }
       : { kind: 'local' },
