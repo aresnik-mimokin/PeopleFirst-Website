@@ -1,10 +1,14 @@
 import { config, fields, singleton, collection } from '@keystatic/core'
 
 export default config({
+  // In production the CMS uses GitHub storage (login + commit to the repo).
+  // The gate is NODE_ENV because it is inlined into the client bundle — the
+  // admin UI needs to know it is in GitHub mode to show the login. The OAuth
+  // secrets (CLIENT_ID / CLIENT_SECRET / KEYSTATIC_SECRET) are read only by the
+  // server-side API route, never exposed to the browser. Local dev uses the
+  // local filesystem so you can edit content without GitHub.
   storage:
-    process.env.KEYSTATIC_GITHUB_CLIENT_ID &&
-    process.env.KEYSTATIC_GITHUB_CLIENT_SECRET &&
-    process.env.KEYSTATIC_SECRET
+    process.env.NODE_ENV === 'production'
       ? {
           kind: 'github',
           repo: {
