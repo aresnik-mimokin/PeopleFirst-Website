@@ -94,6 +94,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
+        {/* GEOMetrics — AI/LLM traffic analytics */}
+        <script
+          src="https://llmometrics.b-cdn.net/metric.js"
+          data-token="c7029f0f-b139-44bf-a4fc-3d674f200620"
+          async
+        />
       </head>
       <body>
         <Providers>
