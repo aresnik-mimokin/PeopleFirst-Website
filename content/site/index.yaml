@@ -1,0 +1,115 @@
+seo:
+  siteTitle: PeopleFirst Agency
+  siteDescription: >-
+    Recruiting firm specializing in IT, Data & AI talent for high-growth tech
+    companies in LATAM, USA & Europe.
+nav:
+  bookCallUrl: https://calendar.app.google/PAvvc21k6nXs9xGn8
+  linkedinUrl: https://linkedin.com/in/carlacostantini
+hero:
+  headline: Scaling Engineering & AI Teams
+  headlineAccent: in LATAM, USA & Europe
+  subheadline: >-
+    We connect the fastest-growing tech companies with exceptional engineering
+    and AI talent — precisely, efficiently, and at velocity.
+  ctaLabel: Book a Call
+  ctaUrl: https://calendar.app.google/PAvvc21k6nXs9xGn8
+problem:
+  title: The Friction in Scaling High-Impact Teams
+  subtitle: >-
+    Growing tech companies face three consistent bottlenecks when building
+    engineering teams.
+  card1Title: Limited Talent Availability
+  card1Description: >-
+    Top-tier AI and engineering talent is rare — and heavily competed for. The
+    candidates you need aren't browsing job boards.
+  card2Title: Misaligned Technical Depth
+  card2Description: >-
+    Generic recruiters can't evaluate technical fit. You spend weeks
+    interviewing the wrong profiles, burning your team's time and momentum.
+  card3Title: Cost of Slow Velocity
+  card3Description: >-
+    Every week without the right hire delays product, slows growth, and puts
+    mounting pressure on the rest of your team.
+specializations:
+  title: What We Recruit For
+  col1Title: AI & Data
+  col1Roles: |-
+    ML Engineers
+    Data Scientists
+    AI Researchers
+    Data Engineers
+    Analytics Engineers
+    LLM Engineers
+  col2Title: Engineering
+  col2Roles: |-
+    Backend Engineers
+    Full Stack Engineers
+    Mobile Engineers (iOS/Android)
+    DevOps / SRE Engineers
+    Frontend Engineers
+    Software Architects
+  col3Title: Platform & Backend
+  col3Roles: |-
+    Platform Engineers
+    Infrastructure Architects
+    Cloud Engineers
+    Backend Leads
+    Tech Leads
+    Engineering Managers
+about:
+  title: Founder-Led & Deeply Embedded
+  subtitle: Every search is led personally by Carla.
+  credential1: 7+ years sourcing engineering & AI talent across LATAM, USA and Europe
+  credential2: Direct networks in LATAM, USA, and European tech ecosystems
+  credential3: Placed engineers and data leaders at Series A to unicorn-stage companies
+  credential4: Every search is founder-led — no handoffs, no junior sourcers
+process:
+  title: How We Work
+  step1Title: Hiring Manager Alignment
+  step1Description: >-
+    We go deep on role scope, team dynamics, and culture fit before sourcing a
+    single candidate.
+  step2Title: Proactive Market Hunt
+  step2Description: >-
+    We don't post and pray. We map the market, identify passive candidates, and
+    craft personalized outreach.
+  step3Title: Attracting the Best Talent
+  step3Description: >-
+    We sell your company's vision and product — not just the job. Top engineers
+    choose PeopleFirst because we tell your story right.
+globalReach:
+  title: Global Reach, Regional Depth
+  latamTitle: Latin America
+  latamCountries: Argentina · Colombia · Mexico · Brazil · Chile · Peru
+  latamDescription: >-
+    Deep candidate networks and regional market knowledge across Latin America's
+    most vibrant tech hubs.
+  europeTitle: Europe & USA
+  europeCountries: Spain · Portugal · Germany · Netherlands · UK · USA
+  europeDescription: >-
+    Access to North American and European talent with timezone alignment and
+    strong remote collaboration norms.
+clients:
+  title: Trusted by Fast-Moving Teams
+  subtitle: >-
+    Companies that move fast trust PeopleFirst to find the talent that keeps
+    them ahead.
+  clientList: |-
+    Hotel Engine
+    dLocal
+    Kept
+    Joy
+    Stay AI
+    Cargo PartnersX
+    Deepcell
+    Amma
+    Appgrade
+contact:
+  title: Let's Talk Talent
+  subtitle: >-
+    Tell us about the role you're hiring for. We'll get back to you within one
+    business day.
+  email: carla@wearepeoplefirst.com
+  phone: +54 9 11 XXXX-XXXX
+  linkedinUrl: https://linkedin.com/in/carlacostantini
