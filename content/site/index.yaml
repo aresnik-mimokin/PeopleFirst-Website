@@ -4,7 +4,7 @@ seo:
     Recruiting firm specializing in IT, Data & AI talent for high-growth tech
     companies in LATAM, USA & Europe.
 nav:
-  bookCallUrl: https://calendar.app.google/PAvvc21k6nXs9xGn8
+  bookCallUrl: https://calendly.com/carla-peoplefirst
   linkedinUrl: https://linkedin.com/in/carlacostantini
 hero:
   headline: Scaling Engineering & AI Teams
@@ -13,7 +13,7 @@ hero:
     We connect the fastest-growing tech companies with exceptional engineering
     and AI talent — precisely, efficiently, and at velocity.
   ctaLabel: Book a Call
-  ctaUrl: https://calendar.app.google/PAvvc21k6nXs9xGn8
+  ctaUrl: https://calendly.com/carla-peoplefirst
 problem:
   title: The Friction in Scaling High-Impact Teams
   subtitle: >-
@@ -98,13 +98,11 @@ clients:
   clientList: |-
     Hotel Engine
     dLocal
-    Kept
     Joy
     Stay AI
     Cargo PartnersX
     Deepcell
     Amma
-    Appgrade
 contact:
   title: Let's Talk Talent
   subtitle: >-
