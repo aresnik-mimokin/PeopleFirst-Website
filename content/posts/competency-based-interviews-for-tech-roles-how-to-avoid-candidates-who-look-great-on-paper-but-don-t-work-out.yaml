@@ -1,0 +1,674 @@
+title: >-
+  Competency-Based Interviews for Tech Roles: How to Avoid Candidates Who Look
+  Great on Paper but Don’t Work Out
+titleEs: >-
+  Entrevistas por competencias para roles tech: cómo evitar candidatos que
+  parecen buenos y no lo son
+publishedDate: 2026-09-28
+author: Carla Costantini
+excerpt: >
+  A strong CV and a solid technical interview don’t always predict how someone
+  will perform on the job. Competency-based interviews help hiring teams
+  evaluate how candidates make decisions, collaborate, prioritize, and operate
+  in real-world situations.
+excerptEs: >
+  Un buen CV y una buena entrevista técnica no siempre predicen cómo va a
+  desempeñarse alguien en el trabajo real. Las entrevistas por competencias
+  permiten evaluar cómo una persona decide, colabora, prioriza y se mueve frente
+  a situaciones concretas.
+coverImage: >-
+  /images/blog/competency-based-interviews-for-tech-roles-how-to-avoid-candidates-who-look-great-on-paper-but-don-t-work-out/coverImage.png
+tags:
+  - Tech interview
+  - STAR Method
+  - 'Competency-based interviews '
+draft: false
+content: >
+  You find a candidate with a strong CV, a polished GitHub, experience at a
+  well-known scaleup, and a technical assessment they completed without much
+  trouble.
+
+
+  You hire them.
+
+
+  Three months later, the problem isn’t their technical level.
+
+
+  They struggle with ambiguity. They need too much direction. They create
+  friction with Product. They struggle to prioritize when things get messy.
+
+
+  Technically, they meet the bar.
+
+
+  Operationally, they don’t work.
+
+
+  That’s one of the biggest blind spots in tech hiring: **most processes
+  evaluate knowledge, but not enough behavior in context.** And in fast-moving
+  environments like startups, that’s often what separates a strong hire from a
+  costly mistake.
+
+
+  ## **Why “comfortable” signals aren’t enough**
+
+
+  A typical technical hiring process reviews the candidate’s background, runs a
+  technical assessment, discusses architecture, and makes a decision.
+
+
+  It feels rigorous.
+
+
+  But it can leave out three variables that matter far more than they initially
+  seem:
+
+
+  * **How they prioritize under real pressure**, when something breaks in
+  production.
+
+  * **How they collaborate outside their immediate team**, with Product, Data,
+  or Business.
+
+  * **How they operate without a clear playbook**, when there isn’t an obvious
+  answer.
+
+
+  If your interview only validates knowledge, you’re evaluating someone for an
+  exam—not for the actual job.
+
+
+  Technical performance never exists in isolation. Knowing a technology matters,
+  but so does knowing how to make decisions with incomplete information,
+  communicate trade-offs, and defend those decisions when others disagree.
+
+
+  ## **From the Job Description to the Competencies That Actually Matter**
+
+
+  The mistake often starts before the interview.
+
+
+  Teams take the job description, copy generic competencies like “teamwork” or
+  “proactivity,” and then evaluate the same things for every role.
+
+
+  That doesn’t tell you much.
+
+
+  A good JD shouldn’t only tell you which technologies someone needs to know. It
+  should help you identify where this person is likely to be challenged in the
+  role.
+
+
+  For example, if a Senior Backend Engineer role involves microservices,
+  ownership of critical services, and close collaboration with Product, those
+  requirements translate into observable competencies:
+
+
+  Designing scalable systems
+
+  Debugging production issues
+
+  Technical ownership
+
+  Communicating with non-technical stakeholders
+
+  Prioritizing under constraints
+
+
+  You don’t need 10 competencies.
+
+
+  In most interviews, four or five well-defined competencies are enough.
+
+
+  A simple filter is:
+
+
+  Is this critical to the role?
+
+  Can I observe it through concrete examples?
+
+  Does it help distinguish a strong candidate from an acceptable one?
+
+
+  If the answer isn’t yes to all three, it probably doesn’t belong on the
+  scorecard.
+
+
+  Ask Questions That Produce Evidence, Not Polished Answers
+
+
+  Questions like “How do you work in a team?” invite rehearsed answers.
+
+
+  The STAR method—Situation, Task, Action, Result—works because it forces
+  candidates to get specific: what was happening, what they were responsible
+  for, what they actually did, and what changed afterward.
+
+
+  But the most important part is usually Action.
+
+
+  If a candidate says:
+
+
+  “I coordinated with the team and optimized the service.”
+
+
+  Keep going.
+
+
+  What did you actually change?
+
+
+  Which service did you touch?
+
+
+  What metrics were you looking at?
+
+
+  What alternatives did you consider?
+
+
+  Why did you choose that approach?
+
+
+  What happened afterward?
+
+
+  A strong answer shouldn’t just sound good. It should contain enough
+  operational detail to be evaluated.
+
+
+  Often, the simplest follow-up questions are the most useful: ask them to walk
+  through a specific incident, explain what hypotheses they considered, or
+  describe how they measured the result.
+
+
+  Every Technical Profile Needs a Different Interview Approach
+
+
+  There is no universal interview question set that works equally well for every
+  technical role.
+
+
+  The core competency changes depending on the profile.
+
+
+  Backend & Frontend
+
+
+  Focus on technical judgment under constraints: architecture decisions,
+  trade-offs between speed and quality, and how candidates handle technical
+  disagreement.
+
+
+  ML / AI
+
+
+  Look for experimental rigor and the ability to take models into production.
+  What happens when a model performs well in a notebook but degrades in
+  production? How do they validate data quality?
+
+
+  Data Engineering
+
+
+  Evaluate data reliability with business context. What happens when a critical
+  metric suddenly becomes unreliable? How do they identify the problem and
+  determine what can still be trusted?
+
+
+  DevOps / Cloud
+
+
+  Focus on operational resilience and automation judgment. How do they
+  prioritize when inheriting fragile infrastructure? How do they balance speed,
+  reliability, and security?
+
+
+  In every case, the goal isn’t to build a list of tools the candidate knows.
+
+
+  It’s to understand the thinking behind their decisions.
+
+
+  Scorecards: Turning Answers Into Comparable Evidence
+
+
+  Without a scorecard, interviews quickly turn into a collection of opinions.
+
+
+  “I liked them.”
+
+
+  “They seemed senior.”
+
+
+  “I had a good feeling.”
+
+
+  That’s exactly what you want to avoid.
+
+
+  A simple 1–5 scale for each competency, backed by concrete evidence rather
+  than vague labels, makes candidates easier to compare and discussions much
+  more grounded.
+
+
+  The difference between a useful scorecard and a useless one is often the
+  wording.
+
+
+  Weak:
+
+  “Shows ownership.”
+
+
+  Observable:
+
+  “Takes responsibility for a problem without waiting for detailed instructions,
+  proposes an execution path, and follows through until resolution.”
+
+
+  The second one gives interviewers something they can actually look for.
+
+
+  Calibration Matters as Much as the Interview
+
+
+  Many teams treat the calibration meeting as a quick formality.
+
+
+  That’s where bias can creep in.
+
+
+  Halo effect. Personal affinity. The seniority of the person speaking first.
+  Selective memory of the most impressive anecdote.
+
+
+  A stronger calibration process is simple:
+
+
+  Each interviewer completes their scorecard before the discussion.
+
+  Each person brings concrete evidence—not impressions.
+
+  Disagreements are investigated rather than resolved by voting.
+
+  Gaps are identified explicitly.
+
+
+  The outcome doesn’t always have to be a simple yes or no.
+
+
+  Sometimes the conclusion is:
+
+
+  “Strong technical ownership, but there’s a risk around cross-functional
+  communication.”
+
+
+  Or:
+
+
+  “Most competencies are validated, but we need one additional interview focused
+  on prioritization.”
+
+
+  That is much more useful than “I liked them, but something felt off.”
+
+
+  The Takeaway
+
+
+  Reducing hiring mistakes in technical roles doesn’t necessarily require a
+  harder technical test or another interview round.
+
+
+  It requires a better sequence:
+
+
+  Define a small number of critical competencies → design questions that force
+  concrete evidence → score consistently → calibrate based on evidence, not
+  intuition.
+
+
+  That’s what makes an interview predictive of the actual job—not just
+  impressive on paper.
+
+
+  At PeopleFirst, we build evaluation processes around this logic, adapting them
+  to each Engineering, Data, or AI role and to the reality of the team doing the
+  hiring.
+
+
+  **Carla Costantini, Global Talent Partner at PeopleFirst Agency*
+contentEs: >
+  Encontrás un candidato con un CV sólido, un GitHub prolijo, experiencia en una
+  scaleup reconocida y una prueba técnica que resolvió sin problemas.
+
+
+  Lo contratás.
+
+
+  Tres meses después, el problema no es su nivel técnico.
+
+
+  Se traba con la ambigüedad. Necesita demasiadas instrucciones. Genera fricción
+  con Product. Le cuesta priorizar cuando las cosas se complican.
+
+
+  Técnicamente, cumple.
+
+
+  Operativamente, no funciona.
+
+
+  Ese es uno de los grandes puntos ciegos de los procesos de selección tech:
+  **la mayoría evalúa conocimiento, pero no suficiente comportamiento aplicado
+  al contexto real.** Y en entornos que cambian rápido, como las startups, eso
+  muchas veces es lo que separa a un buen hire de una contratación que termina
+  saliendo mal.
+
+
+  ## **Por qué las señales “cómodas” no alcanzan**
+
+
+  Un proceso típico revisa el recorrido del candidato, aplica una prueba
+  técnica, valida arquitectura en una entrevista y toma una decisión.
+
+
+  Parece riguroso.
+
+
+  Pero puede dejar afuera tres variables que importan mucho más de lo que
+  parece:
+
+
+  * **Cómo prioriza bajo presión real**, cuando algo se rompe en producción.
+
+  * **Cómo colabora fuera de su equipo**, con Product, Data o Business.
+
+  * **Cómo se mueve sin un playbook claro**, cuando no existe una respuesta de
+  manual.
+
+
+  Si tu entrevista solo valida conocimientos, estás evaluando a alguien para un
+  examen, no para el trabajo real.
+
+
+  El desempeño técnico nunca existe de forma aislada. No alcanza con conocer una
+  tecnología: también importa cómo una persona decide con información
+  incompleta, comunica trade-offs y defiende sus decisiones frente al equipo.
+
+
+  ## **De la job description a las competencias que realmente importan**
+
+
+  El error muchas veces empieza antes de la entrevista.
+
+
+  Se toma la job description, se copian competencias genéricas como “trabajo en
+  equipo” o “proactividad” y se termina evaluando lo mismo para cualquier rol.
+
+
+  Eso dice poco.
+
+
+  Una buena JD no debería servir solamente para listar las tecnologías que
+  alguien necesita conocer. También debería ayudarte a identificar **dónde esa
+  persona probablemente va a ser puesta a prueba en el rol.**
+
+
+  Por ejemplo, si una búsqueda de Senior Backend Engineer incluye
+  microservicios, ownership de servicios críticos y colaboración cercana con
+  Product, esos requisitos se pueden traducir en competencias observables:
+
+
+  * Diseño de sistemas escalables
+
+  * Debugging en producción
+
+  * Ownership técnico
+
+  * Comunicación con stakeholders no técnicos
+
+  * Priorización bajo restricciones
+
+
+  No necesitás 10 competencias.
+
+
+  En la mayoría de las entrevistas, **cuatro o cinco competencias bien definidas
+  son suficientes.**
+
+
+  Un buen filtro es preguntarse:
+
+
+  * ¿Es crítica para el rol?
+
+  * ¿Se puede observar a través de ejemplos concretos?
+
+  * ¿Permite diferenciar a un candidato fuerte de uno simplemente aceptable?
+
+
+  Si la respuesta no es sí a las tres, probablemente no debería estar en el
+  scorecard.
+
+
+  ## **Hacer preguntas que generen evidencia, no respuestas preparadas**
+
+
+  Preguntas como *“¿Cómo trabajás en equipo?”* invitan a respuestas ensayadas.
+
+
+  El método STAR —Situation, Task, Action, Result— funciona porque obliga al
+  candidato a bajar a tierra: qué estaba pasando, cuál era **su**
+  responsabilidad, qué hizo concretamente y qué cambió después.
+
+
+  Pero la parte más importante suele ser **Action**.
+
+
+  Si alguien responde:
+
+
+  > “Coordiné con el equipo y optimicé el servicio.”
+
+
+  Hay que seguir.
+
+
+  ¿Qué cambiaste exactamente?
+
+
+  ¿Qué servicio tocaste?
+
+
+  ¿Qué métricas estabas mirando?
+
+
+  ¿Qué alternativas consideraste?
+
+
+  ¿Por qué elegiste ese camino?
+
+
+  ¿Qué pasó después?
+
+
+  Una buena respuesta no tiene que sonar bien solamente. **Tiene que tener
+  suficiente detalle operativo como para poder evaluarla.**
+
+
+  Muchas veces, las repreguntas más simples son las más efectivas: pedir que
+  explique un incidente concreto, qué hipótesis manejaba o cómo midió el
+  resultado que menciona.
+
+
+  ## **Cada perfil técnico necesita un enfoque diferente**
+
+
+  No existe una batería universal de preguntas que funcione igual para todos los
+  roles técnicos.
+
+
+  La competencia central cambia según el perfil.
+
+
+  ### **Backend & Frontend**
+
+
+  Criterio técnico bajo restricciones: decisiones de arquitectura, trade-offs
+  entre velocidad y calidad y cómo maneja desacuerdos técnicos.
+
+
+  ### **ML / AI**
+
+
+  Rigor experimental y capacidad de llevar modelos a producción. ¿Qué pasa
+  cuando un modelo funciona en un notebook pero se degrada en producción? ¿Cómo
+  valida la calidad de los datos?
+
+
+  ### **Data Engineering**
+
+
+  Confiabilidad del dato con contexto de negocio. ¿Qué hace cuando una métrica
+  crítica deja de ser confiable? ¿Cómo identifica el problema y determina qué
+  información todavía puede utilizar?
+
+
+  ### **DevOps / Cloud**
+
+
+  Resiliencia operativa y criterio de automatización. ¿Cómo prioriza al heredar
+  una infraestructura frágil? ¿Cómo equilibra velocidad, confiabilidad y
+  seguridad?
+
+
+  En todos los casos, el objetivo no es armar una lista de herramientas que el
+  candidato conoce.
+
+
+  Es entender **el razonamiento detrás de sus decisiones.**
+
+
+  ## **Scorecards: convertir respuestas en evidencia comparable**
+
+
+  Sin un scorecard, la entrevista rápidamente se convierte en una colección de
+  opiniones.
+
+
+  *“Me gustó.”*
+
+
+  *“Me pareció senior.”*
+
+
+  *“Tuve una buena sensación.”*
+
+
+  Eso es exactamente lo que hay que evitar.
+
+
+  Una escala simple de 1 a 5 por competencia, acompañada de evidencia concreta
+  en lugar de etiquetas vagas, permite comparar candidatos de manera mucho más
+  consistente.
+
+
+  La diferencia entre un scorecard útil y uno inútil muchas veces está en cómo
+  está redactado.
+
+
+  **Débil:**
+
+  “Demuestra ownership.”
+
+
+  **Observable:**
+
+  “Asume la responsabilidad por un problema sin esperar instrucciones
+  detalladas, propone un camino de ejecución y hace seguimiento hasta su
+  resolución.”
+
+
+  La segunda definición le da al entrevistador algo concreto que observar.
+
+
+  ## **La calibración importa tanto como la entrevista**
+
+
+  Muchos equipos tratan la reunión de calibración como un trámite rápido.
+
+
+  Ahí es donde pueden aparecer sesgos.
+
+
+  Efecto halo. Afinidad personal. El peso jerárquico de quien habla primero. La
+  memoria selectiva de la anécdota más llamativa.
+
+
+  Una calibración más sólida es simple:
+
+
+  1. Cada entrevistador completa su scorecard antes de la reunión.
+
+  2. Cada persona presenta evidencia concreta, no impresiones.
+
+  3. Las discrepancias se investigan en lugar de resolverse por votación.
+
+  4. Los gaps quedan explícitos.
+
+
+  El resultado tampoco tiene que ser siempre un sí o un no.
+
+
+  A veces la conclusión es:
+
+
+  **“Fuerte en ownership técnico, pero hay un riesgo en comunicación
+  transversal.”**
+
+
+  O:
+
+
+  **“La mayoría de las competencias están validadas, pero necesitamos una
+  entrevista adicional enfocada en priorización.”**
+
+
+  Eso es mucho más útil que *“me gustó, pero algo no me cerró.”*
+
+
+  ## **Conclusión**
+
+
+  Reducir errores de contratación en roles técnicos no necesariamente requiere
+  una prueba técnica más difícil ni sumar otra ronda de entrevistas.
+
+
+  Requiere una mejor secuencia:
+
+
+  **Definir pocas competencias críticas → diseñar preguntas que fuercen
+  evidencia concreta → puntuar de manera consistente → calibrar basándose en
+  evidencia y no en intuición.**
+
+
+  Eso es lo que hace que una entrevista evalúe el trabajo real y no solamente un
+  perfil que se ve bien en papel.
+
+
+  En **PeopleFirst**, construimos procesos de evaluación con esta lógica,
+  adaptándolos a cada búsqueda de Engineering, Data o AI y a la realidad
+  concreta del equipo que va a incorporar a esa persona.
+
+
+  **Carla Costantini, Global Talent Partner at PeopleFirst Agency*
