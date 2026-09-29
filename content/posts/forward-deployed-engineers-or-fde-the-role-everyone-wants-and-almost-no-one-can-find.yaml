@@ -1,0 +1,237 @@
+title: >-
+  Forward Deployed Engineers or FDE: the role everyone wants and almost no one
+  can find
+titleEs: >-
+  Forward Deployed Engineers o FDE: el perfil que todos buscan y casi nadie
+  encuentra
+publishedDate: 2026-09-29
+author: Carla Costantini
+excerpt: >
+  Forward Deployed Engineers (FDEs) are becoming increasingly important as AI
+  companies move from building models and products to making them work inside
+  real customer environments. This article explores what makes the FDE profile
+  so difficult to hire, what signals can help identify strong candidates, and
+  why LATAM can be a particularly strong talent market for the role.
+excerptEs: >
+  Los Forward Deployed Engineers (FDEs) están ganando protagonismo a medida que
+  las empresas de AI necesitan convertir modelos y productos en soluciones que
+  funcionen dentro de clientes reales. En este artículo exploramos qué hace
+  diferente a este perfil, por qué es tan difícil de contratar y por qué LATAM
+  puede ser un mercado especialmente interesante para encontrarlo.
+tags:
+  - FDE
+  - Forward Deployed Engineer
+draft: false
+content: >
+  A few days ago I was catching up with a former colleague, AI leader at a tech
+  company. One line stuck with me: **"companies are struggling to hire FDEs."**
+  It wasn't the first time I'd heard it. It's probably the fastest-growing role
+  I've seen in the market this year.
+
+
+  ## **What an FDE is**
+
+
+  A Forward Deployed Engineer is a software engineer embedded with the customer.
+  They don't build the product for every user. They take the product and make it
+  work in production for one specific customer, with its data, systems and
+  constraints.
+
+
+  Palantir created the role. Today OpenAI, Anthropic, Google Cloud, Stripe,
+  Databricks and hundreds of AI startups are hiring for it. The reason is
+  simple: models already work in the demo. The hard part now is making them work
+  inside each company.
+
+
+  ## **The demand, in numbers**
+
+
+  * FDE postings were up roughly **729% year over year** as of April 2026,
+  according to an Indeed index reported by Business Insider.
+
+  * A Plank census counted **1,333 open roles across 565 companies** on
+  September 12, 2026.
+
+  * On Paraform, **59%** of companies hiring FDEs are Seed to Series A. This
+  isn't just a big tech story.
+
+
+  ## **Why it's so hard to hire**
+
+
+  Because it asks for three things that rarely come together:
+
+
+  1. **Real technical depth:** production code, integrations, data, and
+  increasingly LLMs and agents.
+
+  2. **Product judgment:** knowing which problem to solve, and which not to.
+
+  3. **Client skills:** communication, scoping, comfort with ambiguity and,
+  often, travel.
+
+
+  A great engineer who avoids customers won't work. A great commercial profile
+  who can't code won't either.
+
+
+  ## **The proxy that works**
+
+
+  That same conversation gave me a very concrete shortcut: pair a **strong
+  technical foundation** (Computer Science, Software Engineering or Systems
+  Engineering) with **consulting experience**, for example at a global
+  outsourcing or tech services company.
+
+
+  It makes sense. These are engineers who've already had to sit in front of a
+  client and deliver. Add a top LATAM university and time at a leading global
+  consulting firm, and you have the profile leading the market.
+
+
+  It's not a rule. It's a strong signal to start from.
+
+
+  ## **The LATAM opportunity**
+
+
+  LATAM has this profile at scale: engineers from demanding universities who
+  spent years serving US and European clients from services companies. Add
+  overlapping time zones, working English and competitive costs.
+
+
+  For a startup hiring its first FDE, looking in the region isn't plan B. Often
+  it's the best place to find them.
+
+
+  ## **Three tips before you hire one**
+
+
+  1. **Define the role precisely.** If it's really implementation or support,
+  don't call it FDE. You'll attract candidates expecting something else.
+
+  2. **Assess both halves.** A technical challenge and a client simulation. One
+  isn't enough.
+
+  3. **Price in travel and context.** If there's travel or on-site work, say so
+  on day one and reflect it in the offer.
+
+
+  ## **Let's talk**
+
+
+  At PeopleFirst Agency we recruit Engineering, Data and AI talent for startups
+  and scale-ups across LATAM, the US and Europe. Opening your first FDE search?
+  Reach out: wearepeoplefirst.com.
+
+
+  *Sources: Deep Engineering (Indeed data via Business Insider) · Plank, FDE Job
+  Market · Paraform · Uplers, 2026 FDE guide*
+contentEs: >
+  Hace unos días charlaba con un ex compañero, líder de AI en una empresa tech,
+  y me tiró una frase que me quedó dando vueltas: **"las empresas están luchando
+  para contratar FDEs"**. No era la primera vez que lo escuchaba. Es,
+  probablemente, el rol que más veo crecer en el mercado este año.
+
+
+  ## **Qué es un FDE**
+
+
+  Un Forward Deployed Engineer es un ingeniero de software que trabaja embebido
+  con el cliente. No construye el producto para todos los usuarios: toma el
+  producto y lo hace funcionar en producción dentro de un cliente puntual, con
+  sus datos, sus sistemas y sus restricciones.
+
+
+  El rol nació en Palantir. Hoy lo contratan OpenAI, Anthropic, Google Cloud,
+  Stripe, Databricks y cientos de startups de AI. La razón es simple: los
+  modelos ya funcionan en la demo. El problema ahora es que funcionen dentro de
+  cada empresa.
+
+
+  ## **La demanda en números**
+
+
+  * Según un índice de Indeed citado por Business Insider, las búsquedas de FDE
+  crecieron cerca de **729% interanual** a abril de 2026.
+
+  * Un relevamiento de Plank contó **1.333 posiciones abiertas en 565 empresas**
+  al 12 de septiembre de 2026.
+
+  * En Paraform, el **59%** de las empresas que contratan FDEs están entre Seed
+  y Serie A. No es solo cosa de big tech.
+
+
+  ## **Por qué es tan difícil de contratar**
+
+
+  Porque pide tres cosas que rara vez vienen juntas:
+
+
+  1. **Profundidad técnica real:** código de producción, integraciones, datos, y
+  cada vez más LLMs y agentes.
+
+  2. **Criterio de producto:** entender qué problema resolver y qué no.
+
+  3. **Habilidades de cliente:** comunicar, negociar alcance, bancarse la
+  ambigüedad y, muchas veces, viajar.
+
+
+  Un gran ingeniero que evita al cliente no funciona. Un gran perfil comercial
+  que no programa, tampoco.
+
+
+  ## **El proxy que funciona**
+
+
+  Esa misma charla me dejó un atajo muy concreto para encontrarlos: combinar una
+  **base técnica fuerte** (Ingeniería en Sistemas, Computer Science o Software
+  Engineering) con **experiencia en consultoría**, por ejemplo en empresas
+  globales de outsourcing o servicios tech.
+
+
+  Tiene sentido: son ingenieros que ya tuvieron que sentarse frente a un cliente
+  y entregar. Y si a eso le sumás universidades top de LATAM o EEUU y paso por
+  grandes consultoras globales, tenés el perfil que lidera el mercado.
+
+
+  No es una regla. Es una buena señal para arrancar.
+
+
+  ## **La oportunidad en LATAM**
+
+
+  LATAM suele tener exactamente este perfil: ingenieros formados en
+  universidades exigentes, que pasaron años trabajando para clientes de EE.UU. y
+  Europa desde empresas de servicios. Suman huso horario compatible, buen nivel
+  de inglés y costos competitivos.
+
+
+  Para una startup que necesita su primer FDE, buscar en la región no es un plan
+  B. Muchas veces es el mejor lugar para encontrarlo.
+
+
+  ## **Tres consejos si vas a contratar uno**
+
+
+  1. **Definí bien el rol.** Si en realidad es implementación o soporte, no lo
+  llames FDE: vas a atraer candidatos que esperan otra cosa.
+
+  2. **Evaluá las dos mitades.** Un challenge técnico y una simulación con
+  cliente. Una sola no alcanza.
+
+  3. **Pagá el viaje y el contexto.** Si hay viajes o trabajo on-site, decilo
+  desde el día uno y reflejalo en la oferta.
+
+
+  ## **Hablemos**
+
+
+  En PeopleFirst Agency hacemos recruiting de Engineering, Data y AI para
+  startups y scale-ups de LATAM, EE.UU. y Europa. Si estás por abrir tu primera
+  búsqueda de FDE, escribime: wearepeoplefirst.com.
+
+
+  *Fuentes: Deep Engineering (datos de Indeed vía Business Insider) · Plank, FDE
+  Job Market · Paraform · Uplers, guía FDE 2026*
