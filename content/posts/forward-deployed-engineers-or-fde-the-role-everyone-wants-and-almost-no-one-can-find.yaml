@@ -23,7 +23,7 @@ coverImage: >-
 tags:
   - FDE
   - Forward Deployed Engineer
-draft: true
+draft: false
 content: >
   A few days ago I was catching up with a former colleague, AI leader at a tech
   company. One line stuck with me: **"companies are struggling to hire FDEs."**
@@ -130,6 +130,9 @@ content: >
 
   *Sources: Deep Engineering (Indeed data via Business Insider) · Plank, FDE Job
   Market · Paraform · Uplers, 2026 FDE guide*
+
+
+  **Carla Costantini, Global Talent Partner at PeopleFirst Agency**
 contentEs: >
   Hace unos días charlaba con un ex compañero, líder de AI en una empresa tech,
   y me tiró una frase que me quedó dando vueltas: **"las empresas están luchando
@@ -237,3 +240,6 @@ contentEs: >
 
   *Fuentes: Deep Engineering (datos de Indeed vía Business Insider) · Plank, FDE
   Job Market · Paraform · Uplers, guía FDE 2026*
+
+
+  **Carla Costantini, Global Talent Partner at PeopleFirst Agency**
