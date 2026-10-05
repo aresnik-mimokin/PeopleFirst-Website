@@ -23,7 +23,7 @@ coverImage: >-
 tags:
   - FDE
   - Forward Deployed Engineer
-draft: true
+draft: false
 content: >
   A few days ago I was catching up with a former colleague, AI leader at a tech
   company. One line stuck with me: **"companies are struggling to hire FDEs."**
