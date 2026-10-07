@@ -44,12 +44,12 @@
   },
   "about": {
     "title": "Founder-Led & Deeply Embedded",
-    "subtitle": "Every search is led personally by Carla.",
-    "bio": "PeopleFirst Talent Partners (formerly PeopleFirst Agency) is a tech recruiting boutique based in Buenos Aires, Argentina, founded by Carla Costantini. Not affiliated with other firms named PeopleFirst. Carla Costantini founded PeopleFirst with one goal: to bring recruiter-level precision and operator-level business context to technical hiring. With roots in the LATAM tech ecosystem and deep networks across US and European scale-ups, Carla leads every search personally — understanding not just the role, but the team, the product, and the company at the moment it matters most.",
-    "credential1": "7+ years sourcing engineering & AI talent across LATAM, USA and Europe",    
-    "credential2": "Direct networks in LATAM, USA, and European tech ecosystems",
-    "credential3": "Placed engineers and data leaders at Series A to unicorn-stage companies",
-    "credential4": "Every search is founder-led — no handoffs, no junior sourcers",
+    "subtitle": "Every search is led personally by Carla, with team support when the project calls for it.",
+    "bio": "PeopleFirst Talent Partners (formerly PeopleFirst Agency) is a tech recruiting boutique based in Buenos Aires, Argentina, founded by Carla Costantini. We help startups and scale-ups hire senior Engineering, Data, AI and AdTech talent. Carla brings 7+ years of technical recruiting and a business-first approach: before reaching out to a single candidate, she gets to know the product, the team and where the company is headed. Her background in Psychology adds depth to how every candidate is evaluated, beyond the CV.",
+    "credential1": "7+ years recruiting engineering, data, AI & AdTech talent",
+    "credential2": "Hiring across LATAM, the US and Europe, mostly for LATAM and US tech companies",
+    "credential3": "Tech talent hired for startups, from Series A to unicorns",
+    "credential4": "Every search is founder-led, end to end",
     "image_alt": "Carla Costantini, Founder of PeopleFirst Talent Partners"
   },
   "process": {

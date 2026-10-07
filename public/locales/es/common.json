@@ -43,16 +43,17 @@
     "col3_title": "Plataforma & Backend"
   },
   "about": {
-    "title": "Liderado por la Fundadora, Profundamente Comprometida",
-    "subtitle": "Cada búsqueda es liderada personalmente por Carla.",
-    "bio": "PeopleFirst Talent Partners (antes PeopleFirst Agency) es una boutique de tech recruiting con base en Buenos Aires, Argentina, fundada por Carla Costantini. Carla Costantini fundó PeopleFirst con un objetivo: aportar la precisión de un recruiter con el contexto de negocio de un operador al proceso de contratación técnica. Con raíces en el ecosistema tech de LATAM y redes directas en scale-ups de USA y Europa, Carla lidera cada búsqueda personalmente.",    "credential1": "7+ años sourcing talento de ingeniería e IA en LATAM, USA y Europa",
-    "credential2": "Redes directas en los ecosistemas tech de LATAM, USA y Europa",
-    "credential3": "Ingenieros y líderes de datos colocados en empresas de Series A a unicornios",
-    "credential4": "Cada búsqueda es liderada por la fundadora — sin delegación, sin sourcers junior",
+    "title": "Liderado por la fundadora, integrado a tu equipo",
+    "subtitle": "Cada búsqueda es liderada personalmente por Carla, con el apoyo de su equipo cuando el proyecto lo amerita.",
+    "bio": "PeopleFirst Talent Partners (antes PeopleFirst Agency) es una boutique de tech recruiting con base en Buenos Aires, Argentina, fundada por Carla Costantini. Ayudamos a startups y scale-ups a contratar talento senior de Ingeniería, Data, IA y AdTech. Carla combina más de 7 años en recruiting técnico con una mirada de negocio: antes de buscar candidatos, entiende el producto, el equipo y el momento de la empresa. Su formación en Psicología le permite evaluar a cada candidato más allá del CV.",
+    "credential1": "+7 años de experiencia en recruiting de ingeniería, datos, IA y AdTech",
+    "credential2": "Búsquedas en LATAM, Estados Unidos y Europa, principalmente para empresas tech de LATAM y Estados Unidos",
+    "credential3": "Talento tech contratado para startups, desde Series A hasta unicornios",
+    "credential4": "La fundadora lidera cada búsqueda de punta a punta",
     "image_alt": "Carla Costantini, Fundadora de PeopleFirst Talent Partners"
   },
   "process": {
-    "title": "Cómo Trabajamos",
+    "title": "Cómo Trabajamos",    
     "step1_title": "Alineación con el Hiring Manager",
     "step1_description": "Profundizamos en el alcance del rol, la dinámica del equipo y el culture fit antes de sourcear un solo candidato.",
     "step2_title": "Búsqueda Proactiva de Mercado",
