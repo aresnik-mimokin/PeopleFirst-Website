@@ -43,15 +43,15 @@
     "col3_title": "Platform & Backend"
   },
   "about": {
-    "title": "Founder-Led & Deeply Embedded",
-    "subtitle": "Every search is led personally by Carla, with team support when the project calls for it.",
-    "bio": "PeopleFirst Talent Partners (formerly PeopleFirst Agency) is a tech recruiting boutique based in Buenos Aires, Argentina, founded by Carla Costantini. We help startups and scale-ups hire senior Engineering, Data, AI and AdTech talent. Carla brings 7+ years of technical recruiting and a business-first approach: before reaching out to a single candidate, she gets to know the product, the team and where the company is headed. Her background in Psychology adds depth to how every candidate is evaluated, beyond the CV.",
-    "credential1": "7+ years recruiting engineering, data, AI & AdTech talent",
-    "credential2": "Hiring across LATAM, the US and Europe, mostly for LATAM and US tech companies",
-    "credential3": "Tech talent hired for startups, from Series A to unicorns",
-    "credential4": "Every search is founder-led, end to end",
+    "title": "Founder-Led. Culture-Obsessed.",
+    "subtitle": "We plug into your team, learn how you build, and find the people who'll make it better.",
+    "bio": "PeopleFirst Talent Partners (formerly PeopleFirst Agency) is a tech recruiting boutique founded by Carla Costantini in Buenos Aires, Argentina. We help startups and scale-ups across LATAM and the US hire senior Engineering, Data, AI and AdTech talent. Our work starts before the first outreach. We get to know your product, how your team works and what the company needs next. Culture is the first filter, and the last one. Add Carla's background in Psychology, and every candidate gets read for more than their stack.",
+    "credential1": "7+ years sourcing Engineering, Data, AI & AdTech talent",
+    "credential2": "Talent networks across LATAM, the US and Europe",
+    "credential3": "Tech talent placed at Series A to unicorn-stage companies",
+    "credential4": "Every shortlist filtered for skills and culture fit",
     "image_alt": "Carla Costantini, Founder of PeopleFirst Talent Partners"
-  },
+  },  
   "process": {
     "title": "How We Work",
     "step1_title": "Hiring Manager Alignment",
