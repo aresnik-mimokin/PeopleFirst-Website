@@ -5,9 +5,9 @@
 
 export const DEFAULTS = {
   seo: {
-    siteTitle: 'PeopleFirst Agency — IT & AI Recruiting for Tech Scale-ups',
+    siteTitle: 'PeopleFirst Talent Partners — PeopleFirst Talent Partners — Tech & AI Recruiting for Startups and Scale-ups',
     siteDescription:
-      'Recruiting firm specializing in IT, Data & AI talent for high-growth tech companies in LATAM, USA & Europe. Founded by Carla Costantini.',
+      'Founder-led boutique recruiting firm (formerly PeopleFirst Agency) helping startups and scale-ups hire Engineering, Data, AI and AdTech talent in LATAM, US & Europe., Data & AI talent for high-growth tech companies in LATAM, USA & Europe. Founded by Carla Costantini.',
     ogImage: '/images/og-default.jpg',
   },
   nav: {
@@ -77,8 +77,7 @@ export const DEFAULTS = {
   about: {
     title: 'Founder-Led & Deeply Embedded',
     subtitle: 'Every search is led personally by Carla.',
-    bio: 'Carla Costantini founded PeopleFirst with one goal: to bring recruiter-level precision and operator-level business context to technical hiring. With roots in the LATAM tech ecosystem and deep networks across US and European scale-ups, Carla leads every search personally — understanding not just the role, but the team, the product, and the company at the moment it matters most.',
-    credentials: [
+    bio: 'PeopleFirst Talent Partners (formerly PeopleFirst Agency) is a tech recruiting boutique based in Buenos Aires, Argentina, founded by Carla Costantini. Not affiliated with other firms named PeopleFirst. Carla Costantini founded PeopleFirst with one goal: to bring recruiter-level precision and operator-level business context to technical hiring. With roots in the LATAM tech ecosystem and deep networks across US and European scale-ups, Carla leads every search personally — understanding not just the role, but the team, the product, and the company at the moment it matters most.',    credentials: [
       '7+ years sourcing engineering & AI talent across LATAM, USA and Europe',
       'Direct networks in LATAM, USA, and European tech ecosystems',
       'Placed engineers and data leaders at Series A to unicorn-stage companies',

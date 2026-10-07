@@ -45,12 +45,11 @@
   "about": {
     "title": "Liderado por la Fundadora, Profundamente Comprometida",
     "subtitle": "Cada búsqueda es liderada personalmente por Carla.",
-    "bio": "Carla Costantini fundó PeopleFirst con un objetivo: aportar la precisión de un recruiter con el contexto de negocio de un operador al proceso de contratación técnica. Con raíces en el ecosistema tech de LATAM y redes directas en scale-ups de USA y Europa, Carla lidera cada búsqueda personalmente.",
-    "credential1": "7+ años sourcing talento de ingeniería e IA en LATAM, USA y Europa",
+    "bio": "PeopleFirst Talent Partners (antes PeopleFirst Agency) es una boutique de tech recruiting con base en Buenos Aires, Argentina, fundada por Carla Costantini. Carla Costantini fundó PeopleFirst con un objetivo: aportar la precisión de un recruiter con el contexto de negocio de un operador al proceso de contratación técnica. Con raíces en el ecosistema tech de LATAM y redes directas en scale-ups de USA y Europa, Carla lidera cada búsqueda personalmente.",    "credential1": "7+ años sourcing talento de ingeniería e IA en LATAM, USA y Europa",
     "credential2": "Redes directas en los ecosistemas tech de LATAM, USA y Europa",
     "credential3": "Ingenieros y líderes de datos colocados en empresas de Series A a unicornios",
     "credential4": "Cada búsqueda es liderada por la fundadora — sin delegación, sin sourcers junior",
-    "image_alt": "Carla Costantini, Fundadora de PeopleFirst Agency"
+    "image_alt": "Carla Costantini, Fundadora de PeopleFirst Talent Partners"
   },
   "process": {
     "title": "Cómo Trabajamos",
@@ -100,7 +99,7 @@
   },
   "footer": {
     "tagline": "Recruiting de precisión para equipos de ingeniería e IA en LATAM, USA y Europa.",
-    "copyright": "© {year} PeopleFirst Agency. Todos los derechos reservados.",
+    "copyright": "© {year} PeopleFirst Talent Partners. Todos los derechos reservados.",
     "linkedin": "LinkedIn",
     "email": "carla@wearepeoplefirst.com"
   },

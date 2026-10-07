@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://wearepeoplefirst.com'),
   title: {
     default: DEFAULTS.seo.siteTitle,
-    template: `%s | PeopleFirst Agency`,
+    template: `%s | PeopleFirst Talent Partners`,
   },
   description: DEFAULTS.seo.siteDescription,
   keywords: [
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     'scale-up recruiting',
   ],
   authors: [{ name: 'Carla Costantini', url: 'https://wearepeoplefirst.com' }],
-  creator: 'PeopleFirst Agency',
+  creator: 'PeopleFirst Talent Partners',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://wearepeoplefirst.com',
-    siteName: 'PeopleFirst Agency',
+    siteName: 'PeopleFirst Talent Partners',
     title: DEFAULTS.seo.siteTitle,
     description: DEFAULTS.seo.siteDescription,
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         url: '/images/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: 'PeopleFirst Agency — IT & AI Recruiting for Tech Scale-ups',
+        alt: 'PeopleFirst Talent Partners — PeopleFirst Talent Partners — Tech & AI Recruiting for Startups and Scale-ups',
       },
     ],
   },
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'PeopleFirst Agency',
+  name: 'PeopleFirst Talent Partners',
   url: 'https://wearepeoplefirst.com',
   logo: 'https://wearepeoplefirst.com/images/logo.png',
   contactPoint: {

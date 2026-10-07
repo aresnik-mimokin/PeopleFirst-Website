@@ -38,7 +38,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           {/* Brand column */}
           <div className="flex flex-col gap-4">
-            <Link href="/" aria-label="PeopleFirst Agency — home" className="w-fit">
+            <Link href="/" aria-label="PeopleFirst Talent Partners — home" className="w-fit">
               <span className="font-display font-bold text-xl tracking-tight">
                 People<span className="text-purple-500">First</span>
               </span>

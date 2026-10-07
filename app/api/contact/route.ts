@@ -96,7 +96,7 @@ export async function POST(req: NextRequest) {
             In the meantime, feel free to connect on <a href="https://www.linkedin.com/in/carlacostantini" style="color: #7C3AED;">LinkedIn</a>.
           </p>
           <br />
-          <p style="color: #374151;">Best,<br /><strong>Carla Costantini</strong><br />Founder, PeopleFirst Agency</p>
+          <p style="color: #374151;">Best,<br /><strong>Carla Costantini</strong><br />Founder, PeopleFirst Talent Partners</p>
         </div>
       `,
     })
