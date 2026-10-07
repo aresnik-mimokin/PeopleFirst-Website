@@ -31,12 +31,12 @@ export default config({
       schema: {
         // ─── SEO ────────────────────────────────────────────────
         seo: fields.object({
-          siteTitle: fields.text({ label: 'Site Title', defaultValue: 'PeopleFirst Agency' }),
+          siteTitle: fields.text({ label: 'Site Title', defaultValue: 'PeopleFirst Talent Partners' }),
           siteDescription: fields.text({
             label: 'Site Description',
             multiline: true,
             defaultValue:
-              'Recruiting firm specializing in IT, Data & AI talent for high-growth tech companies in LATAM, USA & Europe.',
+              'Founder-led boutique recruiting firm (formerly PeopleFirst Agency) helping startups and scale-ups hire Engineering, Data, AI and AdTech talent in LATAM, US & Europe, Data & AI talent for high-growth tech companies in LATAM, USA & Europe.',
           }),
           ogImage: fields.image({
             label: 'OG Image',

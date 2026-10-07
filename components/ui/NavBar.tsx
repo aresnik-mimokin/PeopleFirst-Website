@@ -77,7 +77,7 @@ export function NavBar({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
           {/* Logo */}
           <Link
             href="/"
-            aria-label="PeopleFirst Agency — home"
+            aria-label="PeopleFirst Talent Partners — home"
             className="flex items-center gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
           >
             <span className={cn(

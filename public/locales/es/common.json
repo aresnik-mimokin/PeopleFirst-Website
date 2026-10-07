@@ -43,17 +43,17 @@
     "col3_title": "Plataforma & Backend"
   },
   "about": {
-    "title": "Liderado por la Fundadora, Profundamente Comprometida",
-    "subtitle": "Cada búsqueda es liderada personalmente por Carla.",
-    "bio": "Carla Costantini fundó PeopleFirst con un objetivo: aportar la precisión de un recruiter con el contexto de negocio de un operador al proceso de contratación técnica. Con raíces en el ecosistema tech de LATAM y redes directas en scale-ups de USA y Europa, Carla lidera cada búsqueda personalmente.",
-    "credential1": "7+ años sourcing talento de ingeniería e IA en LATAM, USA y Europa",
-    "credential2": "Redes directas en los ecosistemas tech de LATAM, USA y Europa",
-    "credential3": "Ingenieros y líderes de datos colocados en empresas de Series A a unicornios",
-    "credential4": "Cada búsqueda es liderada por la fundadora — sin delegación, sin sourcers junior",
-    "image_alt": "Carla Costantini, Fundadora de PeopleFirst Agency"
-  },
+    "title": "Primero la cultura. Después, el match.",
+    "subtitle": "Conocemos tu equipo, entendemos cómo construyen y encontramos a las personas que lo van a hacer crecer.",
+    "bio": "PeopleFirst Talent Partners (antes PeopleFirst Agency) es una tech recruiting boutique fundada por Carla Costantini en Buenos Aires, Argentina. Trabajamos con startups y scale-ups de LATAM y Estados Unidos para sumar talento senior en Ingeniería, Data, IA y AdTech. Nuestro trabajo empieza antes del primer contacto: conocemos tu producto, cómo trabaja tu equipo y qué necesita la empresa en su próxima etapa. La cultura es el primer filtro, y también el último. Sumado a la formación de Carla en Psicología, cada candidato se evalúa por mucho más que su stack.",
+    "credential1": "+7 años de experiencia en recruiting de Ingeniería, Data, IA y AdTech",
+    "credential2": "Redes de talento en LATAM, Estados Unidos y Europa",
+    "credential3": "Talento tech contratado en empresas desde Series A hasta unicornios",
+    "credential4": "Cada shortlist filtrada por skills y fit cultural",
+    "image_alt": "Carla Costantini, Fundadora de PeopleFirst Talent Partners"
+  },  
   "process": {
-    "title": "Cómo Trabajamos",
+    "title": "Cómo Trabajamos",    
     "step1_title": "Alineación con el Hiring Manager",
     "step1_description": "Profundizamos en el alcance del rol, la dinámica del equipo y el culture fit antes de sourcear un solo candidato.",
     "step2_title": "Búsqueda Proactiva de Mercado",
@@ -100,7 +100,7 @@
   },
   "footer": {
     "tagline": "Recruiting de precisión para equipos de ingeniería e IA en LATAM, USA y Europa.",
-    "copyright": "© {year} PeopleFirst Agency. Todos los derechos reservados.",
+    "copyright": "© {year} PeopleFirst Talent Partners. Todos los derechos reservados.",
     "linkedin": "LinkedIn",
     "email": "carla@wearepeoplefirst.com"
   },
