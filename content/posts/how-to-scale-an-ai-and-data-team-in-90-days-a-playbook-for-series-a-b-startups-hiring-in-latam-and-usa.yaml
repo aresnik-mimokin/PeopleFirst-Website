@@ -13,7 +13,12 @@ excerptEs: >-
   Un plan paso a paso para founders y CTOs que acaban de levantar ronda y
   necesitan sumar entre 5 y 10 perfiles técnicos de AI y Data sin perder calidad
   en el camino.
-tags: []
+coverImage: >-
+  /images/blog/how-to-scale-an-ai-and-data-team-in-90-days-a-playbook-for-series-a-b-startups-hiring-in-latam-and-usa/coverImage.png
+tags:
+  - AI
+  - Data
+  - 90-days playbook
 draft: false
 content: >-
   You just closed your round. The board wants to see execution, the roadmap has
