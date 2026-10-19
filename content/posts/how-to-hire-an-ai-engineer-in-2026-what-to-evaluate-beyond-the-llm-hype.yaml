@@ -1,0 +1,419 @@
+title: 'How to Hire an AI Engineer in 2026: What to Evaluate Beyond the LLM Hype'
+titleEs: >-
+  Cómo contratar un AI Engineer en 2026: qué evaluar más allá del hype de los
+  LLMs
+publishedDate: 2026-10-19
+author: Carla Costantini
+excerpt: >-
+  A guide to telling real experience with LLMs, RAG and agents apart from a
+  résumé full of buzzwords: what to ask, which signals to look for and which red
+  flags to avoid.
+excerptEs: >-
+  Una guía para distinguir experiencia real con LLMs, RAG y agentes de un CV
+  lleno de buzzwords: qué preguntar, qué señales mirar y qué red flags evitar.
+coverImage: >-
+  /images/blog/how-to-hire-an-ai-engineer-in-2026-what-to-evaluate-beyond-the-llm-hype/coverImage.png
+tags:
+  - LLMs
+  - RAG
+  - Hiring AI Engineers
+draft: false
+content: >-
+  In 2026, almost every technical résumé mentions LLMs. Many list RAG, agents,
+  LangChain, embeddings. The problem is that adding those words to a profile
+  costs nothing, while building an LLM system that works in production, with
+  real users, is very hard.
+
+
+  That's why hiring an AI Engineer has become one of the most deceptive
+  processes in the market. The gap between someone who built a demo in a
+  notebook and someone who runs a system in production is huge, but on paper
+  they look almost identical.
+
+
+  This guide is for founders, CTOs and technical leaders who need to separate
+  real experience from noise.
+
+
+  ## What an AI Engineer is (and isn't)
+
+
+  Before evaluating, it helps to define. An **AI Engineer** builds products and
+  systems on top of AI models, mainly LLMs: they integrate model APIs, design
+  retrieval pipelines (RAG), build agents, evaluate response quality and take
+  all of it to production.
+
+
+  It's not the same as:
+
+
+  - **An ML Engineer**, who typically trains, fine-tunes and deploys proprietary
+  models.
+
+  - **A Data Scientist**, who focuses on analysis, experimentation and
+  statistical models.
+
+  - **A Backend Engineer who "used the OpenAI API"**, which can be a great
+  starting point but doesn't imply experience designing reliable AI systems.
+
+
+  If you're not clear on which of these profiles you need, the process will fail
+  before the first interview.
+
+
+  ## 5 signals of real experience
+
+
+  **1. They talk about evaluation, not just building.** Anyone can get an LLM to
+  respond. The hard part is knowing whether it responds well. An AI Engineer
+  with real experience talks about how they measured quality: evaluation
+  datasets, metrics, regression tests when the prompt or model changes.
+
+
+  **2. They know production problems.** Latency, cost per token, context limits,
+  hallucinations, API error handling, caching. If they never had to optimize the
+  cost of a growing system, they probably never had one in production.
+
+
+  **3. They can explain why they chose an architecture.** "We used RAG" isn't
+  enough. They should be able to explain why RAG instead of fine-tuning, how
+  they chose chunk sizes, which vector database they used and what they'd do
+  differently today.
+
+
+  **4. They know when NOT to use an LLM.** The strongest profiles know that a
+  simple rule, a traditional search or a classic model often solves the problem
+  better and cheaper. Hype pushes LLMs into everything; experience teaches
+  restraint.
+
+
+  **5. They have solid software engineering fundamentals.** Testing, versioning,
+  observability, maintainable code. An AI system is, above all, a software
+  system. Frameworks change every six months; engineering fundamentals don't.
+
+
+  ## Questions that separate real experience from hype
+
+
+  These questions work because there's no textbook answer. People who lived it
+  answer with concrete details; people who didn't answer with generalities.
+
+
+  - **"Tell me about an LLM system you took to production. How many users did it
+  have and what went wrong?"** You're looking for numbers, real incidents and
+  lessons learned.
+
+  - **"How did you know whether the system was responding well?"** If the answer
+  is "we tested it manually," that's a warning sign.
+
+  - **"What did you do when the model or provider changed and responses got
+  worse?"** This reveals whether they had evaluation and regression processes.
+
+  - **"How much did the system cost per month, and how did you optimize it?"**
+  Anyone who operated something real knows the cost.
+
+  - **"When did you decide not to use an LLM?"** This measures judgment, not
+  enthusiasm.
+
+  - **"What would you do differently if you had to build it again today?"** It
+  shows reflection and learning.
+
+
+  ## Common red flags
+
+
+  - **The résumé is a list of tools with no outcomes.** LangChain, LlamaIndex,
+  Pinecone, CrewAI… but no mention of what was built or for whom.
+
+  - **Every project is personal or from a course.** Fine for a junior profile,
+  but it doesn't replace experience with real users if you're hiring senior.
+
+  - **They can't explain their technical decisions.** They used an architecture
+  because it was "recommended" in a tutorial.
+
+  - **They never talk about failures.** Every real LLM system fails in
+  unexpected ways. If they have no failure stories, they probably didn't have a
+  real system.
+
+  - **They overrate prompt engineering.** Writing good prompts is useful, but
+  it's a small part of the job. If it's the only thing they highlight,
+  engineering depth is missing.
+
+
+  ## How to design the evaluation process
+
+
+  A good process for AI Engineers doesn't look like a classic algorithms
+  interview. A structure that works well:
+
+
+  **Stage 1: Experience conversation (45 to 60 minutes).** A deep dive into one
+  or two real projects. This stage gives you the most signal, and it's where the
+  questions above make the difference.
+
+
+  **Stage 2: Scoped practical exercise (60 to 90 minutes, live).** A problem
+  similar to what they'll face: designing a RAG system for a business case, or
+  diagnosing why an existing system responds poorly. Reasoning matters more than
+  perfect code.
+
+
+  **Stage 3: System design (60 minutes).** How they would scale the system,
+  monitor it, and handle costs and failures.
+
+
+  **Stage 4: Team fit and ways of working.** How they collaborate with product,
+  communicate uncertainty and handle ambiguity. In AI, where results aren't
+  deterministic, this matters a lot.
+
+
+  Avoid long take-homes. Senior profiles with real experience have several
+  options open and won't spend a weekend on your exercise.
+
+
+  ## Junior, mid or senior: what to expect at each level
+
+
+  - **Junior:** solid programming fundamentals, personal projects with LLMs,
+  eagerness to learn. Don't expect production experience.
+
+  - **Mid-level:** at least one LLM system in production, understands evaluation
+  and costs, can work autonomously within a defined scope.
+
+  - **Senior:** several systems in production, architectural judgment, can set
+  evaluation standards for the team and decide when not to use AI.
+
+
+  One important note: because the discipline is new, "senior" in AI Engineering
+  doesn't always mean many years. Someone with 2 intense years building LLM
+  systems in production, on top of solid software engineering foundations, can
+  have more relevant experience than someone with 8 years in other areas.
+
+
+  ## The candidate is evaluating you too
+
+
+  Great AI Engineers have options. To attract them, it helps to show:
+
+
+  - **A real, concrete problem**, not "we want to add AI to the product."
+
+  - **Access to real data and users.**
+
+  - **Freedom to choose tools and models.**
+
+  - **A fast process with quick feedback.**
+
+
+  ## The bottom line
+
+
+  Hiring an AI Engineer in 2026 isn't about finding who knows the most tools.
+  It's about finding someone who can build reliable systems on top of a
+  technology that changes constantly, measure whether they work, and have the
+  judgment to decide when not to use it.
+
+
+  Buzzwords don't predict performance. Production experience, how someone
+  evaluates quality, and technical judgment do.
+contentEs: >-
+  En 2026, casi todos los CVs técnicos mencionan LLMs. Muchos dicen RAG,
+  agentes, LangChain, embeddings. El problema es que poner esas palabras en un
+  perfil cuesta cero, y construir un sistema con LLMs que funcione en
+  producción, con usuarios reales, es muy difícil.
+
+
+  Por eso contratar un AI Engineer se volvió uno de los procesos más engañosos
+  del mercado. La distancia entre quien hizo una demo en un notebook y quien
+  sostiene un sistema en producción es enorme, pero en el papel se ven casi
+  iguales.
+
+
+  Esta guía está pensada para founders, CTOs y líderes técnicos que necesitan
+  separar la experiencia real del ruido.
+
+
+  ## Qué es (y qué no es) un AI Engineer
+
+
+  Antes de evaluar, conviene definir. Un **AI Engineer** construye productos y
+  sistemas sobre modelos de AI, principalmente LLMs: integra APIs de modelos,
+  diseña pipelines de recuperación de información (RAG), arma agentes, evalúa la
+  calidad de las respuestas y lleva todo eso a producción.
+
+
+  No es lo mismo que:
+
+
+  - **Un ML Engineer**, que suele entrenar, ajustar y desplegar modelos propios.
+
+  - **Un Data Scientist**, que se enfoca en análisis, experimentación y modelos
+  estadísticos.
+
+  - **Un Backend Engineer que "usó la API de OpenAI"**, que puede ser un gran
+  punto de partida, pero no implica experiencia diseñando sistemas de AI
+  confiables.
+
+
+  Si no tenés claro cuál de estos perfiles necesitás, el proceso va a fallar
+  antes de la primera entrevista.
+
+
+  ## Las 5 señales de experiencia real
+
+
+  **1. Habla de evaluación, no solo de construcción.** Cualquiera puede hacer
+  que un LLM responda. Lo difícil es saber si responde bien. Un AI Engineer con
+  experiencia real habla de cómo midió la calidad: datasets de evaluación,
+  métricas, pruebas de regresión cuando cambia el prompt o el modelo.
+
+
+  **2. Conoce los problemas de producción.** Latencia, costos por token, límites
+  de contexto, alucinaciones, manejo de errores de la API, caching. Si nunca
+  tuvo que optimizar el costo de un sistema que crecía, probablemente nunca tuvo
+  uno en producción.
+
+
+  **3. Puede explicar por qué eligió una arquitectura.** No alcanza con "usamos
+  RAG". Tiene que poder explicar por qué RAG y no fine-tuning, cómo decidió el
+  tamaño de los chunks, qué base vectorial usó y qué haría distinto hoy.
+
+
+  **4. Tiene criterio sobre cuándo NO usar un LLM.** Los perfiles más sólidos
+  saben que muchas veces una regla simple, una búsqueda tradicional o un modelo
+  clásico resuelven mejor y más barato. El hype empuja a meter LLMs en todo; la
+  experiencia enseña a no hacerlo.
+
+
+  **5. Tiene bases sólidas de ingeniería de software.** Testing, versionado,
+  observabilidad, código mantenible. Un sistema de AI es, antes que nada, un
+  sistema de software. Los frameworks cambian cada seis meses; las bases de
+  ingeniería no.
+
+
+  ## Preguntas que separan la experiencia real del hype
+
+
+  Estas preguntas funcionan porque no tienen una respuesta de manual. Quien lo
+  vivió responde con detalles concretos; quien no, responde con generalidades.
+
+
+  - **"Contame de un sistema con LLMs que hayas llevado a producción. ¿Cuántos
+  usuarios tenía y qué salió mal?"** Buscás números, incidentes reales y
+  aprendizajes.
+
+  - **"¿Cómo sabías si el sistema estaba respondiendo bien?"** Si la respuesta
+  es "lo probábamos a mano", hay una señal de alerta.
+
+  - **"¿Qué hiciste cuando cambió el modelo o el proveedor y las respuestas
+  empeoraron?"** Esto revela si tenía procesos de evaluación y regresión.
+
+  - **"¿Cuánto costaba por mes el sistema y cómo lo optimizaste?"** Quien operó
+  algo real conoce el costo.
+
+  - **"¿En qué caso decidiste no usar un LLM?"** Mide criterio, no entusiasmo.
+
+  - **"¿Qué harías distinto si tuvieras que construirlo de nuevo hoy?"** Muestra
+  capacidad de reflexión y aprendizaje.
+
+
+  ## Red flags frecuentes
+
+
+  - **El CV es una lista de herramientas sin resultados.** LangChain,
+  LlamaIndex, Pinecone, CrewAI… pero ninguna mención a qué se construyó ni para
+  quién.
+
+  - **Todos los proyectos son personales o de cursos.** No está mal para un
+  perfil junior, pero no reemplaza la experiencia con usuarios reales si buscás
+  un senior.
+
+  - **No puede explicar sus decisiones técnicas.** Usó una arquitectura porque
+  "era lo recomendado" en un tutorial.
+
+  - **Nunca habla de fallas.** Todo sistema real con LLMs falla de formas
+  inesperadas. Quien no tiene historias de fallas, probablemente no tuvo un
+  sistema real.
+
+  - **Sobrevalora el prompt engineering.** Escribir buenos prompts es útil, pero
+  es una parte pequeña del trabajo. Si es lo único que destaca, falta
+  profundidad de ingeniería.
+
+
+  ## Cómo diseñar el proceso de evaluación
+
+
+  Un buen proceso para AI Engineers no se parece a una entrevista clásica de
+  algoritmos. Un esquema que funciona bien:
+
+
+  **Etapa 1: Conversación sobre experiencia (45 a 60 minutos).** Un deep dive en
+  uno o dos proyectos reales. Es la etapa que más información da, y donde las
+  preguntas de la sección anterior hacen la diferencia.
+
+
+  **Etapa 2: Ejercicio práctico acotado (60 a 90 minutos, en vivo).** Un
+  problema parecido al que va a enfrentar: diseñar un sistema de RAG para un
+  caso del negocio, o diagnosticar por qué un sistema existente responde mal.
+  Importa más el razonamiento que el código perfecto.
+
+
+  **Etapa 3: System design (60 minutos).** Cómo escalaría el sistema, cómo lo
+  monitorearía, cómo manejaría costos y fallas.
+
+
+  **Etapa 4: Fit con el equipo y la forma de trabajo.** Cómo colabora con
+  producto, cómo comunica incertidumbre, cómo maneja la ambigüedad. En AI, donde
+  los resultados no son deterministas, esto pesa mucho.
+
+
+  Evitá los take-homes largos. Los perfiles senior con experiencia real tienen
+  varias opciones abiertas y no van a dedicar un fin de semana a tu ejercicio.
+
+
+  ## Junior, mid o senior: qué esperar en cada nivel
+
+
+  - **Junior:** bases sólidas de programación, proyectos propios con LLMs, ganas
+  de aprender. No esperes experiencia en producción.
+
+  - **Mid-level:** al menos un sistema con LLMs en producción, entiende
+  evaluación y costos, puede trabajar con autonomía en un scope definido.
+
+  - **Senior:** varios sistemas en producción, criterio arquitectónico, puede
+  definir estándares de evaluación para el equipo y decidir cuándo no usar AI.
+
+
+  Un dato importante: como la disciplina es nueva, "senior" en AI Engineering no
+  siempre significa muchos años. Alguien con 2 años intensos construyendo
+  sistemas de LLMs en producción, sobre una base sólida de ingeniería de
+  software, puede tener más experiencia relevante que alguien con 8 años en
+  otras áreas.
+
+
+  ## El candidato también te está evaluando
+
+
+  Los buenos AI Engineers tienen opciones. Para atraerlos, ayuda mostrar:
+
+
+  - **Un problema real y concreto**, no "queremos meter AI en el producto".
+
+  - **Acceso a datos y usuarios reales.**
+
+  - **Libertad para elegir herramientas y modelos.**
+
+  - **Un proceso ágil, con feedback rápido.**
+
+
+  ## En resumen
+
+
+  Contratar un AI Engineer en 2026 no es buscar quién conoce más herramientas.
+  Es encontrar a quien sabe construir sistemas confiables sobre una tecnología
+  que cambia todo el tiempo, medir si funcionan y tener criterio para decidir
+  cuándo no usarla.
+
+
+  Las buzzwords no sirven para predecir desempeño. La experiencia en producción,
+  la forma de evaluar calidad y el criterio técnico, sí.
