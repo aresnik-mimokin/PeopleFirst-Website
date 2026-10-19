@@ -1,0 +1,441 @@
+title: >-
+  How to Scale an AI and Data Team in 90 Days: A Playbook for Series A–B
+  Startups Hiring in LATAM and USA
+titleEs: >-
+  Cómo escalar un equipo de AI y Data en 90 días: playbook para startups Series
+  A–B que contratan en LATAM y USA
+publishedDate: 2026-10-19
+author: Carla Costantini
+excerpt: >
+  A step-by-step plan for founders and CTOs who just raised a round and need to
+  add 5 to 10 AI and Data hires without sacrificing quality along the way.
+excerptEs: >-
+  Un plan paso a paso para founders y CTOs que acaban de levantar ronda y
+  necesitan sumar entre 5 y 10 perfiles técnicos de AI y Data sin perder calidad
+  en el camino.
+coverImage: >-
+  /images/blog/how-to-scale-an-ai-and-data-team-in-90-days-a-playbook-for-series-a-b-startups-hiring-in-latam-and-usa/coverImage.png
+tags:
+  - AI
+  - Data
+  - 90-days playbook
+draft: false
+content: >-
+  You just closed your round. The board wants to see execution, the roadmap has
+  AI features already committed, and your current engineering team is stretched
+  thin. Now you need to hire 5 to 10 Data and AI people in a single quarter.
+
+
+  Most startups that try this end up in one of two places: they hire fast and
+  badly, or they hire well but so slowly that the roadmap slips anyway. This
+  playbook is designed to avoid both.
+
+
+  ## Before opening a single role: week 0
+
+
+  The most expensive mistake when scaling doesn't happen in interviews. It
+  happens earlier, when roles are opened without clarity on what problem each
+  one solves.
+
+
+  Before posting anything, answer these three questions with your leadership
+  team:
+
+
+  - **What needs to be working in 6 months?** Not "have an AI team," but
+  something concrete: a scoring model in production, a reliable data pipeline,
+  an LLM-powered feature used by real customers.
+
+  - **What is infrastructure and what is product?** If your data isn't clean and
+  centralized, no ML Engineer will be able to deliver value. Very often, your
+  first "AI" hire needs to be a Data Engineer.
+
+  - **Who will lead technically?** Hiring five people without a technical lead
+  who sets standards means hiring five different ways of doing things.
+
+
+  ## Order matters: how to sequence your hires
+
+
+  Not every search has to start on the same day. Opening them all at once
+  overloads your interviewers and lowers the quality of your decisions.
+
+
+  **Wave 1 (days 1 to 30): the foundations**
+
+
+  - **Tech Lead or Senior Data/ML Engineer.** This is the person who will
+  interview everyone who comes after. If this hire fails, the whole plan fails.
+
+  - **Senior Data Engineer.** No reliable data, no models. This profile builds
+  the foundation the entire team works on.
+
+
+  **Wave 2 (days 30 to 60): delivery capacity**
+
+
+  - **ML Engineer or AI Engineer**, depending on whether your focus is
+  proprietary models or products built on LLMs.
+
+  - **A second Data Engineer or an Analytics Engineer**, if the business needs
+  trustworthy metrics to make decisions.
+
+
+  **Wave 3 (days 60 to 90): scale and specialization**
+
+
+  - **MLOps or Platform Engineer**, once there are models to deploy and monitor.
+
+  - **Mid-level profiles** that your senior team can now mentor.
+
+
+  The logic is simple: first, the profiles that raise the bar for the next
+  hires; then, the ones that multiply delivery capacity.
+
+
+  ## Realistic timelines by role
+
+
+  Planning with unrealistic timelines is the fastest way to frustrate your team
+  and your board. These are indicative ranges for senior profiles in LATAM and
+  USA, from opening the role to accepted offer:
+
+
+  - **Senior Data Engineer:** 4 to 6 weeks.
+
+  - **Analytics Engineer:** 3 to 5 weeks.
+
+  - **Senior ML Engineer:** 6 to 8 weeks.
+
+  - **AI Engineer with LLMs in production:** 6 to 10 weeks. This is the profile
+  with the highest demand and the least real-world experience available.
+
+  - **MLOps Engineer:** 6 to 9 weeks.
+
+  - **Tech Lead or Head of Data:** 8 to 12 weeks.
+
+
+  On top of that, add the candidate's notice period, which in LATAM and USA is
+  usually 2 to 3 weeks. If you need someone working by day 60, the search needs
+  to start on day 1.
+
+
+  ## The interview process: fast doesn't mean shallow
+
+
+  When scaling, your hiring process becomes a bottleneck. These practices let
+  you move fast without lowering the bar:
+
+
+  - **3 or 4 stages, max.** Every extra stage adds a week and increases the risk
+  of losing candidates who have other offers.
+
+  - **Scorecards defined before interviewing.** Each interviewer assesses
+  specific competencies, not whether they "liked" the candidate.
+
+  - **Feedback within 48 hours.** Top AI and Data profiles get multiple offers
+  at once. Response speed is part of your value proposition.
+
+  - **Scoped technical exercises.** An 8-hour take-home scares away senior
+  candidates. A 60 to 90 minute live session on a real business problem gives
+  you more signal and respects their time.
+
+  - **Blocked interview slots.** Reserve fixed time slots each week so your team
+  doesn't have to rearrange everything every time a candidate moves forward.
+
+
+  ## The most common mistakes when scaling
+
+
+  **Hiring for titles instead of problems.** "We need a Data Scientist" means
+  something very different at every company. Define the problem first, then look
+  for the profile that solves it.
+
+
+  **Lowering the bar because of urgency.** A bad senior hire on a five-person
+  team isn't a 20% error: it shapes the technical culture of everyone who joins
+  after.
+
+
+  **Ignoring onboarding.** Hiring 8 people in 90 days without an onboarding plan
+  creates a big team that takes months to become productive.
+
+
+  **Overloading interviewers.** If your CTO sits in 40 interviews in a month,
+  the product stalls. Spread interviews across the team and train more people to
+  assess candidates.
+
+
+  **Not thinking about compensation from day one.** Reaching the final stage
+  with a candidate only to discover your salary band falls short is one of the
+  most frustrating ways to lose weeks.
+
+
+  ## When to add an agency alongside your internal team
+
+
+  An internal Talent Acquisition team knows the culture and the business better
+  than anyone. But when scaling fast, it often runs out of capacity, especially
+  for niche profiles.
+
+
+  Bringing in an external partner makes sense when:
+
+
+  - **You need to open more searches than your team can sustain** without
+  lowering quality.
+
+  - **The profiles are niche**, like AI Engineers with real production
+  experience or MLOps, and require active sourcing of candidates who aren't
+  looking.
+
+  - **You're hiring in a new market** and don't have a local network or salary
+  benchmarks.
+
+  - **You don't have a TA team yet** and the founder or CTO is doing recruiting
+  part-time.
+
+
+  The combination that tends to work best: the internal team leads generalist
+  roles and the candidate experience, while the external partner focuses on the
+  hardest profiles.
+
+
+  ## 90-day checklist
+
+
+  - **Week 0:** 6-month goals defined, roles prioritized, salary bands approved,
+  scorecards ready.
+
+  - **Days 1 to 30:** Tech Lead and Data Engineer searches open, interview
+  process running, onboarding plan in place.
+
+  - **Days 30 to 60:** first hires starting, ML/AI Engineer searches open,
+  senior team already joining interviews.
+
+  - **Days 60 to 90:** MLOps and mid-level profiles in process, review of what
+  worked and adjustments for the next wave.
+
+
+  ## The bottom line
+
+
+  Scaling an AI and Data team in 90 days is possible, but it doesn't happen by
+  opening every role at once and hoping for the best. It happens through clarity
+  on the problem, a well-thought-out hiring sequence, an agile interview
+  process, and realistic expectations about timelines.
+
+
+  Speed comes from planning, not from skipping steps.
+contentEs: >-
+  Levantaste la ronda. El board quiere ver ejecución, el roadmap tiene features
+  de AI comprometidas y el equipo técnico actual ya está al límite. Ahora tenés
+  que contratar entre 5 y 10 personas de Data y AI en un trimestre.
+
+
+  La mayoría de las startups que intentan hacerlo terminan en una de dos
+  situaciones: contratan rápido y mal, o contratan bien pero tan lento que el
+  roadmap se cae igual. Este playbook está pensado para evitar las dos.
+
+
+  ## Antes de abrir una sola búsqueda: la semana 0
+
+
+  El error más caro al escalar no ocurre en las entrevistas. Ocurre antes,
+  cuando se abren búsquedas sin tener claro qué problema resuelve cada rol.
+
+
+  Antes de publicar nada, respondé estas tres preguntas con tu equipo de
+  liderazgo:
+
+
+  - **¿Qué tiene que estar funcionando en 6 meses?** No "tener un equipo de AI",
+  sino algo concreto: un modelo de scoring en producción, un pipeline de datos
+  confiable, un feature con LLMs que usen clientes reales.
+
+  - **¿Qué es infraestructura y qué es producto?** Si tus datos no están limpios
+  ni centralizados, ningún ML Engineer va a poder entregar valor. Muchas veces
+  el primer hire de "AI" tiene que ser un Data Engineer.
+
+  - **¿Quién va a liderar técnicamente?** Contratar cinco personas sin un
+  referente técnico que defina estándares es contratar cinco formas distintas de
+  hacer las cosas.
+
+
+  ## El orden importa: cómo secuenciar las contrataciones
+
+
+  No todas las búsquedas tienen que arrancar el mismo día. Abrirlas todas juntas
+  satura a quienes entrevistan y baja la calidad de las decisiones.
+
+
+  **Ronda 1 (días 1 a 30): los cimientos**
+
+
+  - **Tech Lead o Senior Data/ML Engineer.** Es la persona que va a participar
+  en las entrevistas de todos los que vienen después. Si este hire falla, falla
+  todo el plan.
+
+  - **Senior Data Engineer.** Sin datos confiables no hay modelos. Este perfil
+  construye la base sobre la que trabaja todo el equipo.
+
+
+  **Ronda 2 (días 30 a 60): capacidad de entrega**
+
+
+  - **ML Engineer o AI Engineer**, según si tu foco es modelos propios o
+  productos sobre LLMs.
+
+  - **Un segundo Data Engineer o un Analytics Engineer**, si el negocio necesita
+  métricas confiables para tomar decisiones.
+
+
+  **Ronda 3 (días 60 a 90): escala y especialización**
+
+
+  - **MLOps o Platform Engineer**, cuando ya hay modelos que monitorear y
+  desplegar.
+
+  - **Perfiles mid-level** que el equipo senior ya puede mentorear.
+
+
+  La lógica es simple: primero los perfiles que elevan la vara para los
+  siguientes, después los que multiplican la capacidad de entrega.
+
+
+  ## Tiempos realistas por perfil
+
+
+  Planificar con tiempos irreales es la forma más rápida de frustrar al equipo y
+  al board. Estos son rangos orientativos para perfiles senior en LATAM y USA,
+  desde que se abre la búsqueda hasta la oferta aceptada:
+
+
+  - **Data Engineer senior:** 4 a 6 semanas.
+
+  - **Analytics Engineer:** 3 a 5 semanas.
+
+  - **ML Engineer senior:** 6 a 8 semanas.
+
+  - **AI Engineer con LLMs en producción:** 6 a 10 semanas. Es el perfil con más
+  demanda y menos experiencia real disponible.
+
+  - **MLOps Engineer:** 6 a 9 semanas.
+
+  - **Tech Lead o Head of Data:** 8 a 12 semanas.
+
+
+  A esto hay que sumarle el preaviso del candidato, que en LATAM y USA suele ser
+  de 2 a 3 semanas. Si necesitás a alguien trabajando en el día 60, la búsqueda
+  tiene que arrancar en el día 1.
+
+
+  ## El proceso de entrevistas: rápido no significa liviano
+
+
+  Al escalar, el proceso de selección se convierte en un cuello de botella.
+  Estas prácticas permiten moverse rápido sin bajar el estándar:
+
+
+  - **Máximo 3 o 4 etapas.** Cada etapa extra suma una semana y aumenta el
+  riesgo de perder candidatos que tienen otras ofertas.
+
+  - **Scorecards definidos antes de entrevistar.** Cada entrevistador evalúa
+  competencias específicas, no "si le gustó" el candidato.
+
+  - **Feedback en 48 horas.** Los mejores perfiles de AI y Data reciben varias
+  propuestas a la vez. La velocidad de respuesta es parte de tu propuesta de
+  valor.
+
+  - **Ejercicios técnicos acotados.** Un take-home de 8 horas espanta a los
+  perfiles senior. Una sesión en vivo de 60 a 90 minutos sobre un problema real
+  del negocio da más información y respeta su tiempo.
+
+  - **Bloques de entrevistas en agenda.** Reservá franjas fijas por semana para
+  que el equipo no tenga que reorganizar todo cada vez que avanza un candidato.
+
+
+  ## Los errores más comunes al escalar
+
+
+  **Contratar por títulos y no por problemas.** "Necesitamos un Data Scientist"
+  suele significar algo muy distinto en cada empresa. Definí el problema y
+  después buscá el perfil que lo resuelve.
+
+
+  **Bajar el estándar por urgencia.** Un mal hire senior en un equipo de cinco
+  personas no es un 20% de error: condiciona la cultura técnica de todos los que
+  vienen después.
+
+
+  **Ignorar el onboarding.** Contratar 8 personas en 90 días sin un plan de
+  onboarding genera un equipo grande que tarda meses en ser productivo.
+
+
+  **Sobrecargar a los entrevistadores.** Si tu CTO participa en 40 entrevistas
+  en un mes, el producto se frena. Distribuí las entrevistas y formá a más
+  personas para evaluar.
+
+
+  **No pensar en la compensación desde el día uno.** Llegar a la etapa final con
+  un candidato y descubrir que la banda salarial no alcanza es una de las formas
+  más frustrantes de perder semanas.
+
+
+  ## Cuándo sumar una agencia además de tu equipo interno
+
+
+  Un equipo de Talent Acquisition interno conoce la cultura y el negocio como
+  nadie. Pero al escalar rápido, suele quedarse sin capacidad, sobre todo en
+  perfiles de nicho.
+
+
+  Tiene sentido sumar un partner externo cuando:
+
+
+  - **Necesitás abrir más búsquedas de las que tu equipo puede sostener** sin
+  bajar la calidad.
+
+  - **Los perfiles son de nicho**, como AI Engineers con experiencia real en
+  producción o MLOps, y requieren sourcing activo de candidatos que no están
+  buscando trabajo.
+
+  - **Estás contratando en un mercado nuevo** y no tenés red ni referencias
+  salariales locales.
+
+  - **No tenés equipo de TA todavía** y el founder o el CTO están haciendo
+  recruiting a tiempo parcial.
+
+
+  La combinación que mejor funciona suele ser: el equipo interno lidera los
+  perfiles generalistas y la experiencia del candidato, y el partner externo se
+  enfoca en los perfiles más difíciles.
+
+
+  ## Checklist de 90 días
+
+
+  - **Semana 0:** objetivos a 6 meses definidos, roles priorizados, bandas
+  salariales aprobadas, scorecards listos.
+
+  - **Días 1 a 30:** búsquedas de Tech Lead y Data Engineer abiertas, proceso de
+  entrevistas en marcha, plan de onboarding armado.
+
+  - **Días 30 a 60:** primeras incorporaciones arrancando, búsquedas de ML/AI
+  Engineer abiertas, el equipo senior ya participa en entrevistas.
+
+  - **Días 60 a 90:** MLOps y perfiles mid-level en proceso, revisión de qué
+  funcionó en el proceso y ajustes para la próxima ola.
+
+
+  ## En resumen
+
+
+  Escalar un equipo de AI y Data en 90 días es posible, pero no se logra
+  abriendo todas las búsquedas a la vez y esperando lo mejor. Se logra con
+  claridad sobre el problema, una secuencia de contrataciones bien pensada, un
+  proceso de entrevistas ágil y expectativas realistas sobre los tiempos.
+
+
+  La velocidad sale de la planificación, no de saltear pasos.
