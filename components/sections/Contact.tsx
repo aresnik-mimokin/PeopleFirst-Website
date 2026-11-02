@@ -17,7 +17,17 @@ const contactSchema = z.object({
   email: z.string().email('Invalid email address'),
   role: z.string().min(1, 'Role is required'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
+  source: z.string().min(1, 'Please tell us how you found us'),
 })
+
+const sourceOptions = [
+  { value: 'LinkedIn', key: 'contact.source_linkedin' },
+  { value: 'Referral', key: 'contact.source_referral' },
+  { value: 'Google search', key: 'contact.source_google' },
+  { value: 'AI assistant', key: 'contact.source_ai' },
+  { value: 'Event, podcast or article', key: 'contact.source_event' },
+  { value: 'Other', key: 'contact.source_other' },
+] as const
 
 type ContactFormData = z.infer<typeof contactSchema>
 
@@ -250,6 +260,39 @@ export function Contact() {
                         error={errors.company?.message}
                         {...register('company')}
                       />
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label htmlFor="source" className="text-sm font-medium">
+                        {t('contact.source_label')}
+                        <span className="text-purple-400 ml-0.5" aria-hidden="true">*</span>
+                      </label>
+                      <select
+                        id="source"
+                        defaultValue=""
+                        aria-invalid={!!errors.source}
+                        aria-describedby={errors.source ? 'source-error' : undefined}
+                        className={cn(
+                          'h-11 w-full rounded-xl border bg-background px-4 text-sm transition-colors',
+                          'focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent',
+                          errors.source ? 'border-red-500/70 focus:ring-red-500/50' : 'border-input',
+                        )}
+                        {...register('source')}
+                      >
+                        <option value="" disabled>
+                          {t('contact.source_placeholder')}
+                        </option>
+                        {sourceOptions.map((opt) => (
+                          <option key={opt.value} value={opt.value}>
+                            {t(opt.key)}
+                          </option>
+                        ))}
+                      </select>
+                      {errors.source && (
+                        <p id="source-error" role="alert" className="text-xs text-red-400">
+                          {errors.source.message}
+                        </p>
+                      )}
                     </div>
 
                     <FormInput

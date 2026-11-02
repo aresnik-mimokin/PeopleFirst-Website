@@ -8,6 +8,7 @@ const contactSchema = z.object({
   email: z.string().email('Invalid email address'),
   role: z.string().min(1, 'Role is required'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
+  source: z.string().min(1, 'Please tell us how you found us'),
 })
 
 export async function POST(req: NextRequest) {
@@ -28,7 +29,7 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    const { name, company, email, role, message } = parsed.data
+    const { name, company, email, role, message, source } = parsed.data
 
     // RESEND_TO_EMAIL overrides the recipient — useful while domain is unverified
     // (Resend's shared domain can only send to the account's own email)
@@ -61,6 +62,10 @@ export async function POST(req: NextRequest) {
             <tr>
               <td style="padding: 8px 0; color: #6B7280; vertical-align: top;"><strong>Role Hiring For</strong></td>
               <td style="padding: 8px 0;">${role}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; color: #6B7280; vertical-align: top;"><strong>How they found us</strong></td>
+              <td style="padding: 8px 0;">${source}</td>
             </tr>
             <tr>
               <td style="padding: 8px 0; color: #6B7280; vertical-align: top;"><strong>Message</strong></td>

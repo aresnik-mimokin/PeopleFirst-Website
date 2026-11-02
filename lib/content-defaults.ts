@@ -45,6 +45,7 @@ export const DEFAULTS = {
   },
   specializations: {
     title: 'What We Recruit For',
+    stages: ['Series A', 'Series B', 'Series C', 'Series D+', 'Post IPO'],
     columns: [
       {
         title: 'AI & Data',
@@ -70,6 +71,17 @@ export const DEFAULTS = {
           'Staff & Architects',
           'DevOps/SRE Engineers',
           'Cloud Engineers',
+        ],
+      },
+      {
+        title: 'AdTech',
+        icon: 'megaphone',
+        roles: [
+          'AdOps Specialists & Managers',
+          'Programmatic Specialists',
+          'Media Buyers',
+          'Affiliate Managers',
+          'Publisher Acquisition & Partnerships',
         ],
       },
     ],

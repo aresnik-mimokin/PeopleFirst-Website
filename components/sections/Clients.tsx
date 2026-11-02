@@ -1,9 +1,68 @@
 'use client'
 
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from '@/lib/i18n-context'
 import { DEFAULTS } from '@/lib/content-defaults'
+import { TESTIMONIALS, type Testimonial } from '@/lib/testimonials'
+
+function TestimonialCard({
+  item,
+  delay,
+  inView,
+}: {
+  item: Testimonial
+  delay: number
+  inView: boolean
+}) {
+  const { t, locale } = useTranslation()
+  const [expanded, setExpanded] = useState(false)
+
+  const text = locale === 'es' ? item.quote.es : item.quote.en
+  const paragraphs = text.split('\n\n')
+  const hasMore = paragraphs.length > 1
+  const visible = expanded || !hasMore ? text : paragraphs[0]
+
+  return (
+    <motion.figure
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
+      className="flex flex-col gap-6 rounded-2xl border border-border/60 bg-card p-7"
+    >
+      <blockquote className="text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
+        {`“${visible}${hasMore && !expanded ? '…' : ''}”`}
+      </blockquote>
+
+      {hasMore && (
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          aria-expanded={expanded}
+          className="self-start text-xs font-semibold uppercase tracking-widest text-purple-500 hover:text-purple-400 transition-colors"
+        >
+          {expanded ? t('clients.read_less') : t('clients.read_more')}
+        </button>
+      )}
+
+      <figcaption className="mt-auto">
+        {item.linkedinUrl ? (
+          <a
+            href={item.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-display font-semibold text-sm hover:text-purple-400 transition-colors"
+          >
+            {item.name}
+          </a>
+        ) : (
+          <span className="font-display font-semibold text-sm">{item.name}</span>
+        )}
+        <p className="text-xs text-muted-foreground mt-0.5">{item.role}</p>
+      </figcaption>
+    </motion.figure>
+  )
+}
 
 export function Clients() {
   const { t } = useTranslation()
@@ -73,6 +132,16 @@ export function Clients() {
           >
             <span className="text-xs text-muted-foreground/50 text-center">& more</span>
           </motion.div>
+        </div>
+
+        {/* Client recommendations */}
+        <h3 className="font-display font-bold text-2xl sm:text-3xl text-center mt-20 mb-10">
+          {t('clients.recommendations_title')}
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {TESTIMONIALS.map((item, i) => (
+            <TestimonialCard key={item.name} item={item} delay={i * 0.08} inView={inView} />
+          ))}
         </div>
       </div>
     </section>

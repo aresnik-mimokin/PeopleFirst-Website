@@ -38,9 +38,10 @@
   },
   "specializations": {
     "title": "Para Qué Reclutamos",
+    "lead": "Trabajamos con startups y scale-ups respaldadas por inversores, desde Series A hasta etapa unicornio, en LATAM, US y Europa.",
     "col1_title": "IA & Data",
     "col2_title": "Ingeniería",
-    "col3_title": "Plataforma & Backend"
+    "col3_title": "AdTech"
   },
   "about": {
     "title": "Primero la cultura. Después, el match.",
@@ -72,7 +73,10 @@
   },
   "clients": {
     "title": "Confiado por Equipos de Alto Movimiento",
-    "subtitle": "Las empresas que se mueven rápido confían en PeopleFirst para encontrar el talento que las mantiene adelante."
+    "subtitle": "Las empresas que se mueven rápido confían en PeopleFirst para encontrar el talento que las mantiene adelante.",
+    "recommendations_title": "Lo que dicen nuestros clientes",
+    "read_more": "Leer más",
+    "read_less": "Leer menos"
   },
   "contact": {
     "title": "Hablemos de Talento",
@@ -85,6 +89,14 @@
     "email_placeholder": "juan@tuempresa.com",
     "role_label": "Rol que Estás Contratando",
     "role_placeholder": "ej. Senior ML Engineer",
+    "source_label": "¿Cómo nos encontraste?",
+    "source_placeholder": "Elegí una opción",
+    "source_linkedin": "LinkedIn",
+    "source_referral": "Recomendación",
+    "source_google": "Búsqueda en Google",
+    "source_ai": "Asistente de IA (ChatGPT, Claude, Perplexity, etc.)",
+    "source_event": "Evento, podcast o artículo",
+    "source_other": "Otro",
     "message_label": "Mensaje",
     "message_placeholder": "Cuéntanos sobre tu equipo, el rol y cómo luce el éxito...",
     "submit": "Enviar Mensaje",

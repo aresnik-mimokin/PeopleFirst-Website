@@ -38,9 +38,10 @@
   },
   "specializations": {
     "title": "What We Recruit For",
+    "lead": "We partner with VC-backed startups and scale-ups, from Series A to unicorn stage, across LATAM, the US and Europe.",
     "col1_title": "AI & Data",
     "col2_title": "Engineering",
-    "col3_title": "Platform & Backend"
+    "col3_title": "AdTech"
   },
   "about": {
     "title": "Founder-Led. Culture-Obsessed.",
@@ -72,7 +73,10 @@
   },
   "clients": {
     "title": "Trusted by Fast-Moving Teams",
-    "subtitle": "Companies that move fast trust PeopleFirst to find the talent that keeps them ahead."
+    "subtitle": "Companies that move fast trust PeopleFirst to find the talent that keeps them ahead.",
+    "recommendations_title": "What clients are saying",
+    "read_more": "Read more",
+    "read_less": "Show less"
   },
   "contact": {
     "title": "Let's Talk Talent",
@@ -85,6 +89,14 @@
     "email_placeholder": "jane@yourcompany.com",
     "role_label": "Role You're Hiring For",
     "role_placeholder": "e.g. Senior ML Engineer",
+    "source_label": "How did you find me?",
+    "source_placeholder": "Select one",
+    "source_linkedin": "LinkedIn",
+    "source_referral": "Referral",
+    "source_google": "Google search",
+    "source_ai": "AI assistant (ChatGPT, Claude, Perplexity, etc.)",
+    "source_event": "Event, podcast or article",
+    "source_other": "Other",
     "message_label": "Message",
     "message_placeholder": "Tell us about your team, the role, and what success looks like...",
     "submit": "Send Message",
