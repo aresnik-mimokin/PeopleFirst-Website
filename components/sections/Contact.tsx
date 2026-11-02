@@ -5,6 +5,7 @@ import { motion, useInView } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
+import { sendGAEvent } from '@next/third-parties/google'
 import { Mail, Linkedin, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react'
 import { useTranslation } from '@/lib/i18n-context'
 import { Button } from '@/components/ui/Button'
@@ -126,6 +127,8 @@ export function Contact() {
         body: JSON.stringify(data),
       })
       if (!res.ok) throw new Error('Failed')
+      // Lead event in GA4, with the "How did you find me?" answer as a parameter.
+      sendGAEvent('event', 'generate_lead', { lead_source: data.source, form_location: 'contact' })
       setSubmitStatus('success')
       reset()
     } catch {

@@ -85,7 +85,8 @@ const organizationSchema = {
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID
+  // Measurement ID is public (it ships in every page). The env var overrides it if set.
+  const gaId = process.env.NEXT_PUBLIC_GA_ID ?? 'G-X4KG58PSZQ'
 
   return (
     <html lang="en" suppressHydrationWarning>
