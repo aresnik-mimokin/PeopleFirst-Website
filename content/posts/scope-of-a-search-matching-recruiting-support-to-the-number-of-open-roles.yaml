@@ -1,0 +1,41 @@
+title: 'Scope of a search: matching recruiting support to the number of open roles'
+titleEs: 'Alcance de una búsqueda: cómo ajustar el soporte de recruiting a la cantidad de vacantes'
+publishedDate: 2026-12-01
+author: Carla Costantini
+excerpt: >-
+  One role, several or a full team each require different approaches; the scope should reflect real needs.
+excerptEs: >-
+  Una vacante, varias o un equipo completo requieren enfoques distintos; el alcance debe responder a necesidades reales.
+tags:
+  - Recruiting
+  - Agency
+  - Talent Acquisition
+draft: true
+content: |
+  Not every company needs the same kind of recruiting support. Some are looking for a single senior position; others have several open roles in engineering and data, or need to build a full team within a few months. Defining scope according to the case is the first step toward choosing an approach that makes sense.
+
+  ## How should scope be defined by the number and complexity of roles?
+
+  The number of positions is the starting point, but it is not enough. The priority of each role, its complexity and the level of specialization required also matter. Searching for a Staff Engineer with distributed systems experience requires a different process and timeline than three mid-level positions within the same stack.
+
+  An illustrative case: a scale-up with three open roles discovered that two of them depended on a third that had not yet been defined. Before moving forward, it redefined the order of priority and the scope of each search, which allowed it to focus effort on the position that unblocked the others.
+
+  ## Why is it worth avoiding predefined packages?
+
+  A useful approach does not start from a fixed package, but from a conversation about real needs: how many searches are in progress, which ones are critical for the roadmap and what internal capacity already exists. With that information, the scope can be adjusted to a single search or several in parallel, and it can change as priorities shift.
+
+  Recruiting support is most valuable when it follows the pace and culture of the business, rather than forcing the process into a predetermined structure. The measure of a good collaboration is its ability to solve concrete needs at the right moment.
+contentEs: |
+  No todas las empresas necesitan el mismo tipo de soporte de reclutamiento. Algunas buscan una sola posición senior; otras tienen varias vacantes abiertas en ingeniería y datos, o deben armar un equipo completo en pocos meses. Definir el alcance según el caso es el primer paso para elegir un enfoque que tenga sentido.
+
+  ## ¿Cómo definir el alcance según la cantidad y complejidad de las vacantes?
+
+  La cantidad de posiciones es el punto de partida, pero no alcanza. También importan la prioridad de cada rol, su complejidad y el grado de especialización requerido. Buscar un Staff Engineer con experiencia en sistemas distribuidos exige un proceso y un tiempo distintos a los de tres posiciones de nivel intermedio dentro del mismo stack.
+
+  Un caso ilustrativo: una scale-up con tres vacantes abiertas descubrió que dos de ellas dependían de una tercera, todavía sin definir. Antes de avanzar, redefinieron el orden de prioridad y el alcance de cada búsqueda, lo que permitió concentrar el esfuerzo en la posición que desbloqueaba al resto.
+
+  ## ¿Por qué conviene evitar los paquetes predefinidos?
+
+  Un enfoque útil no parte de un paquete cerrado, sino de una conversación sobre necesidades reales: cuántas búsquedas hay en curso, cuáles son críticas para el roadmap y qué capacidades internas ya existen. Con esa información, el alcance puede ajustarse a una búsqueda puntual o a varias en paralelo, y cambiar a medida que cambian las prioridades.
+
+  El soporte de reclutamiento tiene más valor cuando responde al ritmo y a la cultura del negocio, y no cuando obliga a adaptar el proceso a una estructura predeterminada. La medida de una buena colaboración es su capacidad de resolver necesidades concretas en el momento adecuado.

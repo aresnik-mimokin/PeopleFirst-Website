@@ -1,0 +1,45 @@
+title: 'Beyond the job description: why it pays to know the team before searching'
+titleEs: 'Más allá de la job description: por qué conviene conocer al equipo antes de buscar'
+publishedDate: 2026-11-12
+author: Carla Costantini
+excerpt: >-
+  A job description states which skills are needed; a conversation with the team shows which profile will integrate well.
+excerptEs: >-
+  Una descripción de puesto dice qué habilidades se necesitan; una conversación con el equipo dice qué perfil va a integrarse bien.
+tags:
+  - Recruiting
+  - Job Descriptions
+  - Tech
+draft: true
+content: |
+  Before opening a technical search, the first question is usually which skills the role requires. That question is necessary, but it is not enough to understand which team the person will join or what their daily work will look like.
+
+  ## What does a job description provide, and what does it leave out?
+
+  A job description organizes technologies, years of experience and responsibilities. It is a useful starting point, but it describes the role in the abstract. It does not show how tasks are divided, what is expected during code review or how conflicting priorities between product and engineering get resolved.
+
+  An illustrative case: two platform teams are looking for a Senior Backend Engineer with the same stack. One works in short cycles, with fast decisions and high autonomy; the other prioritizes documentation, technical consensus and detailed reviews. The same profile can thrive in one team and struggle in the other, even with an identical CV.
+
+  ## How is search criteria built from a conversation?
+
+  A conversation with the team, even a brief one, reveals how people collaborate, what distinguishes strong performance and which frictions come up often. That information does not replace the job description; it completes it with context the document cannot capture.
+
+  With that context, a recruiter can refine sourcing, prioritize certain profiles and prepare interview questions aimed at the team's real dynamics. It also allows the candidate to be told precisely what they will find on arrival, which reduces offers declined because expectations were misaligned.
+
+  The quality of a search depends as much on the precision of the profile as on clarity about the environment. Documenting both reduces rejections over minor differences and supports hires that last.
+contentEs: |
+  Antes de abrir una búsqueda técnica, la pregunta inicial suele ser qué habilidades necesita el puesto. Esa pregunta es necesaria, pero no alcanza para entender en qué equipo se va a integrar la persona ni qué tipo de trabajo cotidiano la espera.
+
+  ## ¿Qué aporta una job description y qué deja afuera?
+
+  Una job description ordena tecnologías, años de experiencia y responsabilidades. Sirve como punto de partida, pero describe el puesto en abstracto. No muestra cómo se reparten las tareas, qué se espera en la revisión de código ni cómo se resuelven los conflictos de prioridades entre producto e ingeniería.
+
+  Un caso ilustrativo: dos equipos de plataforma buscan un Senior Backend Engineer con el mismo stack. Uno trabaja con ciclos cortos, decisiones rápidas y alta autonomía; el otro prioriza la documentación, el consenso técnico y las revisiones detalladas. El mismo perfil puede prosperar en un equipo y tener dificultades en el otro, aunque el CV sea idéntico.
+
+  ## ¿Cómo se construye el criterio de búsqueda a partir de la conversación?
+
+  Una conversación con el equipo, incluso breve, permite identificar cómo colaboran las personas, qué distingue a quien tiene buen desempeño y qué fricciones aparecen con frecuencia. Esa información no reemplaza la descripción del puesto; la completa con el contexto que el documento no puede capturar.
+
+  Con ese contexto, el reclutador puede ajustar el sourcing, priorizar ciertos perfiles y preparar preguntas de entrevista orientadas a la dinámica real del equipo. También permite explicar al candidato, con precisión, qué encontrará al llegar, lo que reduce ofertas rechazadas por expectativas no alineadas.
+
+  La calidad de una búsqueda depende tanto de la precisión del perfil como de la claridad sobre el entorno. Documentar ambos aspectos evita descartes por diferencias menores y favorece contrataciones que se sostienen en el tiempo.
